@@ -15,10 +15,10 @@
         <br>
         <br>
         <br>
-        <remain-time dueDate="03 01 2017"></remain-time>
+        <remain-time dueDate="03 25 2017"></remain-time>
       </div>
     </div>
-    <a class="cfp" @click="goCfp" target="_blank" href="https://goo.gl/forms/aiyddgox4iUDs89i1">
+    <a class="cfp" target="_blank" href="https://goo.gl/forms/aiyddgox4iUDs89i1">
       스피커를 모집합니다.<br>
       모집기간 : 1/18 ~ 2/5<br>
       발표일 : 2/14<br>
