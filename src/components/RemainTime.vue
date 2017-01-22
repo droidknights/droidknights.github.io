@@ -7,7 +7,7 @@
     </div>
     <div class="section">
       <div class="time">{{hours}}</div>
-      <div>Hourss</div>
+      <div>Hours</div>
     </div>
     <div class="section">
       <div class="time">{{minutes}}</div>
