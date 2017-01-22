@@ -14,7 +14,7 @@ $npm run dev
 
 ### delpoy
 
-``` shel
+``` shell
 $npm run build
 -> git add, commit, push
 ```
