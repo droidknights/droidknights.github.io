@@ -3,19 +3,19 @@
     <div>남은시간</div>
     <div class="section">
       <div class="time">{{days}}</div>
-      <div>Days</div>
+      <div class="label">Days</div>
     </div>
     <div class="section">
       <div class="time">{{hours}}</div>
-      <div>Hours</div>
+      <div class="label">Hours</div>
     </div>
     <div class="section">
       <div class="time">{{minutes}}</div>
-      <div>Minutes</div>
+      <div class="label">Minutes</div>
     </div>
     <div class="section last">
       <div class="time">{{seconds}}</div>
-      <div>Seconds</div>
+      <div class="label">Seconds</div>
     </div>
   </div>
 </template>
@@ -65,5 +65,9 @@
 
   .time {
     font-size: 80px;
+  }
+
+  .label {
+    color: #CFCFCF;
   }
 </style>
