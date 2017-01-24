@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div>남은시간</div>
+    <div class="title">남은시간</div>
     <div class="section">
       <div class="time">{{days}}</div>
       <div class="label">Days</div>
@@ -54,6 +54,10 @@
 </script>
 
 <style scoped>
+  .title {
+    color: #CFCFCF;
+  }
+
   .section {
     display: inline-block;
     margin-right: 40px;

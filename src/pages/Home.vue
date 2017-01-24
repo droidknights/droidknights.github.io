@@ -3,6 +3,12 @@
     <div class="title">
       <p class="mini">This is ..</p>
       DROID KNIGHTS 2017 . IN SEOUL
+
+      <div class="cfp" @click="goCfp">
+        스피커를 모집합니다.<br>
+        모집기간 : 1/18 ~ 2/5<br>
+        <u>지원하러 가기</u>
+      </div>
     </div>
 
     <div class="sub-title">
@@ -16,12 +22,6 @@
         <br>
         <br>
         <remain-time dueDate="03 25 2017"></remain-time>
-      </div>
-
-      <div class="cfp" @click="goCfp">
-        스피커를 모집합니다.<br>
-        모집기간 : 1/18 ~ 2/5<br>
-        <u>지원하러 가기</u>
       </div>
     </div>
 
@@ -74,7 +74,7 @@
 
   .mini {
     font-size: 8px;
-    color: #DFDFDF;
+    color: #CFCFCF;
   }
 
   .title {
@@ -82,6 +82,7 @@
     padding-left: 260px;
     color: white;
     font-size: 16px;
+    color: #DFDFDF;
     letter-spacing: 5px;
     top: 60px;
     position: relative;
@@ -92,11 +93,17 @@
       padding-left: 0px;
       text-align: center;
     }
+
+    .cfp {
+      text-align: center;
+      margin: 19px auto 0px auto;
+    }
   }
 
   .sub-title {
-    top: 260px;
+    top: 230px;
     display: block;
+    margin-bottom: 150px;
     position: relative;
   }
 
@@ -129,13 +136,13 @@
   .cfp {
     display: block;
     width: 240px;
-    color: white;
-    font-size: 17px;
-    letter-spacing: 5px;
+    color: #FFFFFF;
+    font-size: 19px;
+    letter-spacing: 0px;
+    margin-top: 19px;
     position: relative;
-    margin: 160px auto 80px auto;
-    text-align: center;
     cursor: pointer;
+    font-weight: bold;
   }
 
 </style>
