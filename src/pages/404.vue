@@ -1,15 +1,10 @@
 <template>
-  <main-layout>
-    <p>Page not found</p>
-  </main-layout>
+  <p>Page not found</p>
 </template>
 
 <script>
-  import MainLayout from '../layouts/Main.vue'
 
   export default {
-    components: {
-      MainLayout
-    }
+    components: {}
   }
 </script>

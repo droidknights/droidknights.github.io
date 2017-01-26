@@ -1,4 +1,4 @@
 export default {
-  '/': 'Home',
-  '/about': 'About'
+  '/2017': 'Home',
+  '/': 'Redirection'
 }
