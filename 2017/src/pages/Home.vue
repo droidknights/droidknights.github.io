@@ -13,7 +13,7 @@
 
     <div class="sub-title">
       <div class="text-vertical-center">
-        <h1>Comming Soon ..<span>{{cursor}}</span></h1>
+        <h1>Coming Soon ..<span>{{cursor}}</span></h1>
         <div class="sub-title-des">수준있는 안드로이드 개발자를 위한 독립 컨퍼런스가 열립니다.</div><br>
         행사 날짜 : 3 / 25 (토)<br>
         장소 : 전문건설회관 (보라매공원)<br>
