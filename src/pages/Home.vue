@@ -14,7 +14,9 @@
     <div class="sub-title">
       <div class="text-vertical-center">
         <h1>Comming Soon ..<span>{{cursor}}</span></h1>
-        <div class="sub-title-des">수준있는 안드로이드 개발자를 위한 독립 컨퍼런스가 열립니다.</div>
+        <div class="sub-title-des">수준있는 안드로이드 개발자를 위한 독립 컨퍼런스가 열립니다.</div><br>
+        행사 날짜 : 3 / 25 (토)<br>
+        장소 : 전문건설회관 (보라매공원)<br>
         <br>
         <span class="go-facebook" @click="goFacebook" target="_blank">
           <i class="fa fa-facebook-square" aria-hidden="true"></i></span>
@@ -101,7 +103,7 @@
   }
 
   .sub-title {
-    top: 230px;
+    top: 220px;
     display: block;
     margin-bottom: 150px;
     position: relative;
