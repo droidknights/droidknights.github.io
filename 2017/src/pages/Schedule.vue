@@ -108,7 +108,7 @@
           </div>
 
           <div class="spon-item">
-            등
+            등등
           </div>
 
         </div>

@@ -9,10 +9,10 @@
     "predeploy": "npm run build"
   },
   "dependencies": {
-    "vue": "^2.1.0",
     "rxjs": "^5.0.2",
-    "vue-rx": "^2.2.0",
-    "vue-router": "^2.1.1"
+    "vue": "^2.1.0",
+    "vue-router": "^2.2.0",
+    "vue-rx": "^2.2.0"
   },
   "devDependencies": {
     "babel-core": "^6.0.0",
