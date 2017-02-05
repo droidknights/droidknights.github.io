@@ -9,12 +9,8 @@ module.exports = {
     filename: 'build.js'
   },
   resolve: {
-    extensions: ['', '.js', '.vue', '.json'],
-    fallback: [path.join(__dirname, 'node_modules')],
     alias: {
-      'vue$': 'vue/dist/vue.common.js',
-      'src': path.resolve(__dirname, 'src'),
-      'assets': path.resolve(__dirname, 'src/assets')
+      'vue$': 'vue/dist/vue.common.js'
     }
   },
   resolveLoader: {

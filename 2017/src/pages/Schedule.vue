@@ -270,7 +270,7 @@
     display: block;
     color: #3C465B;
     font-size: 30px;
-    margin-top: 80px;
+    padding-top: 80px;
     text-align: center;
   }
 
