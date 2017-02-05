@@ -8,25 +8,3 @@ Vue.use(VueRx, Rx)
 new Vue({
   router
 }).$mount('#app')
-
-// const app = new Vue({
-//   el: '#app',
-//   data: {
-//     currentRoute: window.location.pathname
-//   },
-//   computed: {
-//     ViewComponent () {
-//       const matchingView = routes[this.currentRoute]
-//       return matchingView
-//         ? require('./pages/' + matchingView + '.vue')
-//         : require('./pages/Home.vue')
-//     }
-//   },
-//   render (h) {
-//     return h(this.ViewComponent)
-//   }
-// })
-//
-// window.addEventListener('popstate', () => {
-//   app.currentRoute = window.location.pathname
-// })
