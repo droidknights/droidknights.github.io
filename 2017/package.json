@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "dev": "sudo webpack-dev-server --inline --hot",
-    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
+    "build": "cross-env NODE_ENV=production webpack -p --progress --hide-modules",
     "predeploy": "npm run build"
   },
   "dependencies": {

@@ -14,17 +14,17 @@ module.exports = {
     }
   },
   resolveLoader: {
-    root: path.join(__dirname, 'node_modules'),
+    root: path.join(__dirname, 'node_modules')
   },
   module: {
     loaders: [
       {
         test: /\.vue$/,
-        loader: 'vue'
+        loader: 'vue-loader'
       },
       {
         test: /\.js$/,
-        loader: 'babel',
+        loader: 'babel-loader',
         exclude: /node_modules/
       },
       {
@@ -55,6 +55,9 @@ if (process.env.NODE_ENV === 'production') {
     new webpack.optimize.UglifyJsPlugin({
       compress: {
         warnings: false
+      },
+      output: {
+        comments: false
       }
     }),
     new webpack.optimize.OccurenceOrderPlugin()
