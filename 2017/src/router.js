@@ -5,6 +5,7 @@ Vue.use(VueRouter)
 
 /* Layouts */
 import Home from './pages/Home.vue'
+import Schedule from './pages/Schedule.vue'
 
 const router = new VueRouter({
   mode: 'history',
@@ -14,8 +15,8 @@ const router = new VueRouter({
       component: Home
     },
     {
-      path: '/2017',
-      component: Home
+      path: '/schedule',
+      component: Schedule
     }
   ]
 })

@@ -26,7 +26,7 @@
 	background: #f9f1e9;
 }
 
-.main-title {
+.main-title-back {
 	position: absolute;
 	margin: 0;
 	padding: 0;
@@ -38,14 +38,14 @@
 	transform: translate3d(-50%,-50%,0);
 }
 
-.demo-1 .main-title,
-.demo-3 .main-title {
+.demo-1 .main-title-back,
+.demo-3 .main-title-back {
 	text-transform: uppercase;
 	font-size: 4.2em;
 	letter-spacing: 0.1em;
 }
 
-.demo-2 .main-title {
+.demo-2 .main-title-back {
 	font-family: 'Clicker Script', cursive;
 	font-weight: normal;
 	font-size: 8em;
@@ -53,7 +53,7 @@
 	text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
 }
 
-.demo-2 .main-title::before {
+.demo-2 .main-title-back::before {
 	content: '';
 	width: 20vw;
 	height: 20vw;
@@ -70,14 +70,14 @@
 	transform: translate3d(-50%,-50%,0);
 }
 
-.demo-3 .main-title {
+.demo-3 .main-title-back {
 	padding: 10px 40px;
 	border: 10px double #f9f1e9;
 	text-transform: uppercase;
 	font-family: Londrina Outline, sans-serif;
 }
 
-.demo-4 .main-title {
+.demo-4 .main-title-back {
 	font-size: 6em;
 	font-weight: 300;
 	padding: 10px 30px;
@@ -85,18 +85,18 @@
 	color: #222;
 }
 
-.main-title .thin {
+.main-title-back .thin {
 	font-weight: 200;
 }
 
 @media only screen and (max-width : 768px) {
-	.demo-1 .main-title,
-	.demo-3 .main-title,
-	.demo-4 .main-title {
+	.demo-1 .main-title-back,
+	.demo-3 .main-title-back,
+	.demo-4 .main-title-back {
 		font-size: 3em;
 	}
 
-	.demo-2 .main-title {
+	.demo-2 .main-title-back {
 		font-size: 4em;
 	}
 }
