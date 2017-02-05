@@ -1,13 +1,28 @@
 import Vue from 'vue'
-import App from './App.vue'
 import Rx from 'rxjs/Rx'
 import VueRx from 'vue-rx'
-import router from './router'
+import routes from './router'
 
 Vue.use(VueRx, Rx)
 
-const app = new Vue(
-  Vue.util.extend({ router }, App)
-).$mount('#app')
+const app = new Vue({
+  el: '#app',
+  data: {
+    currentRoute: window.location.pathname
+  },
+  computed: {
+    ViewComponent () {
+      const matchingView = routes[this.currentRoute]
+      return matchingView
+        ? require('./pages/' + matchingView + '.vue')
+        : require('./pages/Home.vue')
+    }
+  },
+  render (h) {
+    return h(this.ViewComponent)
+  }
+})
 
-export {app, router}
+window.addEventListener('popstate', () => {
+  app.currentRoute = window.location.pathname
+})
