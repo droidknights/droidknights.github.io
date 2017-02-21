@@ -11,34 +11,34 @@
     <third-section></third-section>
 
     <!--<div class=section-back>-->
-      <!--<div class="section-sponsors">-->
+    <!--<div class="section-sponsors">-->
 
-        <!--<i class="fa fa-users info-icon" aria-hidden="true"></i>-->
-        <!--<div class="info-title">-->
-          <!--SPONSOR-->
-        <!--</div>-->
+    <!--<i class="fa fa-users info-icon" aria-hidden="true"></i>-->
+    <!--<div class="info-title">-->
+    <!--SPONSOR-->
+    <!--</div>-->
 
-        <!--<div class="sponsor-container">-->
+    <!--<div class="sponsor-container">-->
 
-          <!--<div class="spon-item">-->
-            <!--realm-->
-          <!--</div>-->
+    <!--<div class="spon-item">-->
+    <!--realm-->
+    <!--</div>-->
 
-          <!--<div class="spon-item">-->
-            <!--<img class="spon-image" src="../assets/image/jpub.png">-->
-          <!--</div>-->
+    <!--<div class="spon-item">-->
+    <!--<img class="spon-image" src="../assets/image/jpub.png">-->
+    <!--</div>-->
 
-          <!--<div class="spon-item">-->
-            <!--기타-->
-          <!--</div>-->
+    <!--<div class="spon-item">-->
+    <!--기타-->
+    <!--</div>-->
 
-          <!--<div class="spon-item">-->
-            <!--등등-->
-          <!--</div>-->
+    <!--<div class="spon-item">-->
+    <!--등등-->
+    <!--</div>-->
 
-        <!--</div>-->
+    <!--</div>-->
 
-      <!--</div>-->
+    <!--</div>-->
     <!--</div>-->
 
     <div class="footer-back">
@@ -71,8 +71,8 @@
 </script>
 
 <style scoped>
-  @import url(https://fonts.googleapis.com/earlyaccess/notosanskr.css);
-  @import url(https://fonts.googleapis.com/earlyaccess/nanumpenscript.css);
+  @import url(https://fonts.googleapis.com/css?family=Montserrat);
+  @import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
 
   .root {
     position: relative;

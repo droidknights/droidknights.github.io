@@ -1,13 +1,13 @@
 <template>
 
   <div class="main-title-back">
-    <div class="main-title">
+    <div class="logo_image"></div>
+    <!--<div class="main-title">-->
 
-      <div class="main-sector-left">
-        <div class="logo_image"></div>
-      </div>
+    <!--<div class="main-sector-left">-->
+    <!--</div>-->
 
-    </div>
+    <!--</div>-->
   </div>
 
 </template>
@@ -27,15 +27,13 @@
 
   .main-title-back {
     position: relative;
-    background-color: white;
-    height: 540px;
+    background-color: #000;
+    height: 850px;
     padding-top: 42px;
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
     left: inherit;
     top: inherit;
-    margin-left: 15px;
-    margin-right: 15px;
   }
 
   .main-title {
@@ -58,48 +56,15 @@
   }
 
   .logo_image {
-    width: 336px;
-    height: 300px;
+    width: 736px;
+    height: 640px;
+    margin: 0 auto;
     margin-bottom: 50px;
     margin-top: 70px;
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
-    background-image: url(../../assets/image/logo_dk.png);
-  }
-
-  .des {
-    color: #3C465B;
-    text-align: center;
-    font-size: 28px;
-    margin-top: 100px;
-    display: inline-block;
-  }
-
-  .detail {
-    font-size: 16px;
-    color: #9ED2EF;
-    margin-top: 6px;
-    font-weight: bold;
-  }
-
-  .detail-info {
-    font-size: 16px;
-    color: #3C465B;
-  }
-
-  .apply {
-    border: 2px solid #3C465B;
-    border-radius: 6px;
-    text-align: center;
-    width: 100px;
-    font-weight: bold;
-    font-size: 14px;
-    padding-bottom: 6px;
-    padding-top: 6px;
-    cursor: pointer;
-    margin: 20px auto 0px auto;
-    color: #3C465B;
+    background-image: url(../../assets/image/dk_main_badge.svg);
   }
 
 </style>

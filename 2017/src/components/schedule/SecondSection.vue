@@ -49,7 +49,7 @@
 <style scoped>
   .root {
     position: relative;
-    background-color: #76ff03;
+    background-color: #000;
     padding-top: 50px;
     padding-bottom: 50px;
   }
@@ -61,7 +61,7 @@
     padding-right: 15px;
     margin: 0 auto;
     border-radius: 2px;
-    border: 6px solid #000000;
+    border: 6px solid #76ff03;
   }
 
   .left-logo {
@@ -72,7 +72,7 @@
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
-    background-image: url(../../assets/image/logo_dk.png);
+    background-image: url(../../assets/image/dk_main_logo.svg);
     display: inline-block;
   }
 
@@ -86,31 +86,39 @@
 
   .text-01 {
     font-weight: bold;
-    font-size: 25px;
+    font-size: 24px;
     margin-bottom: 10px;
+    color: white;
+    font-family: 'Spoqa Han Sans', 'Sans-serif';
   }
 
   .text-02 {
-    font-size: 14px;
+    font-size: 13px;
     margin-bottom: 20px;
+    color: white;
+    font-family: 'Spoqa Han Sans', 'Sans-serif';
   }
 
   .text-03 {
     font-weight: bold;
-    font-size: 17px;
+    font-size: 16px;
     margin-bottom: 20px;
+    color: white;
+    font-family: 'Spoqa Han Sans', 'Sans-serif';
   }
 
   .text-04 {
-    border: 6px solid #000000;
+    border: 6px solid #76ff03;
     border-radius: 3px;
     text-align: center;
     width: 219px;
     font-weight: bold;
-    font-size: 17px;
+    font-size: 16px;
     padding-bottom: 14px;
     padding-top: 14px;
     cursor: pointer;
+    color: white;
+    font-family: 'Spoqa Han Sans', 'Sans-serif';
   }
 
 </style>

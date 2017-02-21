@@ -4,7 +4,7 @@
     <div class="header-back">
       <div class="header">
         <div class="logo">
-          DROID KNIGHTS
+
         </div>
 
         <div class="section">
@@ -42,11 +42,11 @@
 </script>
 
 <style scoped>
+
   .header-back {
     position: relative;
     background-color: #76ff03;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    height: 75px;
   }
 
   .header {
@@ -59,20 +59,29 @@
 
   .logo {
     width: 25%;
+    height: 51px;
     font-size: 20px;
     color: #000;
+    margin-top: 12px;
     font-weight: bold;
     letter-spacing: 2px;
     margin-right: 250px;
     display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../../assets/image/dk_main_logo.svg);
   }
 
   .section {
     display: inline-block;
     font-weight: bold;
     margin-right: 14px;
+    margin-bottom: 5px;
     color: #000;
     cursor: pointer;
+    position: relative;
+    top: -20px;
+    font-family: 'Montserrat', sans-serif;
   }
 
   .border {

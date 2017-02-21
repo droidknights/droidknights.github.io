@@ -132,7 +132,7 @@
 <style scoped>
   .root {
     position: relative;
-    background-color: #76ff03;
+    background-color: #000;
     padding-top: 10px;
     padding-bottom: 40px;
   }
@@ -157,10 +157,10 @@
     font-weight: bold;
     margin-bottom: 20px;
     color: #000;
+    font-family: 'Spoqa Han Sans', 'Sans-serif';
   }
 
   .about-container {
-    height: 960px;
     margin-top: 12px;
     padding-top: 16px;
     margin-bottom: 40px;

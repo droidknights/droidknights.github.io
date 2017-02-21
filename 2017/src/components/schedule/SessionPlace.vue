@@ -91,6 +91,7 @@
     color: #000;
     position: relative;
     z-index: 100;
+    font-family: 'Spoqa Han Sans', 'Montserrat', 'Sans-serif';
   }
 
   .container {
@@ -106,14 +107,16 @@
   .text-01 {
     margin-top: 60px;
     margin-bottom: 10px;
+    font-family: 'Spoqa Han Sans', 'Montserrat', 'Sans-serif';
   }
 
   .text-02 {
     margin-bottom: 10px;
+    font-family: 'Spoqa Han Sans', 'Montserrat', 'Sans-serif';
   }
 
   .text-03 {
-
+    font-family: 'Spoqa Han Sans', 'Montserrat', 'Sans-serif';
   }
 
   .label {
