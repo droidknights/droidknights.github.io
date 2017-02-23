@@ -82,7 +82,7 @@
 
         <session-item
           time="16:35 ~ 17:15"
-          title="뤠엠 척추접기 (Anatomy of Lamb) (가제)"
+          title="Anatomy of Realm"
           presenter="김용욱"
           detail="aa"
           introduce="introduce"></session-item>
