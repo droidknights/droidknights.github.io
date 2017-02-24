@@ -5,7 +5,7 @@ module.exports = {
   entry: './src/main.js',
   output: {
     path: path.resolve(__dirname, './dist'),
-    publicPath: '/dist/', // todo : 개발시에는 /dist/    배포시에는 /2017/dist/ 로 해야한다
+    publicPath: '/2017/dist/', // todo : 개발시에는 /dist/    배포시에는 /2017/dist/ 로 해야한다
     filename: 'build.js'
   },
   resolve: {
