@@ -29,7 +29,7 @@
       </div>
 
       <div class="more-detail-inline-block more-detail-right">
-        <img class="more-detail-profile-image" :src="profileImage"/>
+        <div class="more-detail-profile-image"  v-bind:style="{ 'background-image': 'url(' + profileImage + ')' }"/>
         <div class="more-detail-label">
           발표자 소개
         </div>
@@ -262,6 +262,8 @@
   }
 
   .more-detail-profile-image {
+    background-size: cover;
+    background-repeat: no-repeat;
     width: 120px;
     height: 120px;
     margin-top: 15px;
