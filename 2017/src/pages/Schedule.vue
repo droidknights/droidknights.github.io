@@ -66,6 +66,9 @@
       ThirdSection
     },
     created (){
+    },
+    data () {
+      return {}
     }
   }
 </script>

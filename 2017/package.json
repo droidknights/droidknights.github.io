@@ -9,13 +9,14 @@
     "predeploy": "npm run build"
   },
   "dependencies": {
-    "rxjs": "^5.0.2",
     "install": "^0.8.2",
     "marker-clusterer-plus": "^2.1.4",
+    "rxjs": "^5.0.2",
     "vue": "^2.1.0",
     "vue-router": "^2.2.0",
     "vue-rx": "^2.2.0",
-    "vue2-google-maps": "^0.4.2"
+    "vue2-google-maps": "^0.4.2",
+    "vue2-scrollspy": "^1.1.1"
   },
   "devDependencies": {
     "babel-core": "^6.0.0",

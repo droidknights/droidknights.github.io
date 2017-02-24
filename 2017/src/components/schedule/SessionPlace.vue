@@ -30,7 +30,9 @@
           찾아오는 길
         </div>
         <div class="detail">
-          서울특별시.보라매병원 (20-217) 전문건설회관.보라매병원 (20-916) 전문건설회관.보라매병원 동작05(보라매어린이집.문창중학교) → 전문건설회관.보라매병원 정류장 하차
+          신림역에서 5516, 5525<br>
+          신대방역에서 동작 05-1 , 6511, 6516, 5522A, 5524<br>
+          보라매역에서 동작 05-1, 6516, 153, 6513, 461, 6514
         </div>
 
         <div style="width: 100%; height: 300px">
@@ -72,7 +74,7 @@
   .root {
     position: relative;
     padding-top: 10px;
-    background-color: white;
+    margin-top: 60px;
     padding-bottom: 40px;
   }
 
@@ -88,7 +90,7 @@
     padding-bottom: 10px;
     width: 230px;
     background-color: #76ff03;
-    color: #000;
+    color: black;
     position: relative;
     z-index: 100;
     font-family: 'Spoqa Han Sans', 'Montserrat', 'Sans-serif';
@@ -99,7 +101,7 @@
     height: 300px;
     margin-left: 4px;
     margin-right: 4px;
-    border: 6px solid #000000;
+    border: 6px solid #76ff03;
     position: relative;
     top: -34px;
   }
@@ -107,32 +109,37 @@
   .text-01 {
     margin-top: 60px;
     margin-bottom: 10px;
+    color: white;
     font-family: 'Spoqa Han Sans', 'Montserrat', 'Sans-serif';
   }
 
   .text-02 {
     margin-bottom: 10px;
+    color: white;
     font-family: 'Spoqa Han Sans', 'Montserrat', 'Sans-serif';
   }
 
   .text-03 {
+    color: white;
     font-family: 'Spoqa Han Sans', 'Montserrat', 'Sans-serif';
   }
 
   .label {
     display: inline-block;
-    width: 140px;
+    width: 380px;
     text-align: right;
     font-weight: bold;
     font-size: 18px;
     vertical-align: top;
     margin-right: 6px;
+    line-height: 26px;
   }
 
   .detail {
     display: inline-block;
     font-size: 18px;
-    width: 710px;
+    width: 550px;
+    line-height: 26px;
   }
 
 </style>

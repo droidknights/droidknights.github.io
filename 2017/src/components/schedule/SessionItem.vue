@@ -14,8 +14,27 @@
     </div>
 
     <div class="more-detail" v-if="isMoreDetail">
-      <div>
-        난이도
+      <div class="more-detail-inline-block more-detail-margin-bottom">
+        <div class="more-detail-label">
+          난이도
+        </div>
+        <div>
+          {{level}}
+        </div>
+        <div class="more-detail-label">
+          세션소개
+        </div>
+        <div class="more-detail-description" v-html="detail">
+        </div>
+      </div>
+
+      <div class="more-detail-inline-block more-detail-right">
+        <img class="more-detail-profile-image" :src="profileImage"/>
+        <div class="more-detail-label">
+          발표자 소개
+        </div>
+        <div class="more-detail-introduce" v-html="introduce">
+        </div>
       </div>
     </div>
 
@@ -36,6 +55,13 @@
       presenter: {
         type: String,
         required: true
+      },
+      profileImage: {
+        type: String
+      },
+      level: {
+        type: String,
+        default: "중"
       },
       detail: {
         type: String,
@@ -69,11 +95,15 @@
 
 <style scoped>
   .session-container {
-    height: 76px;
+    /*height: 76px;*/
+    margin-top: -18px;
+    position: relative;
   }
 
   .mini-container {
     height: 62px;
+    margin-top: -24px;
+    margin-bottom: 20px;
   }
 
   .border {
@@ -117,7 +147,7 @@
   }
 
   .more-detail {
-    padding: 15px 45px 15px 45px;
+    padding: 15px 30px 15px 30px;
     margin: 0 auto;
     border: 5px solid #76ff03;
     border-radius: 4px;
@@ -169,7 +199,6 @@
   /**/
 
   .more-detail-con {
-    height: 206px;
   }
 
   .more-detail-border {
@@ -198,5 +227,49 @@
   }
 
   /* */
+
+  .more-detail-label {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 26px;
+    margin-bottom: 10px;
+    font-family: 'Spoqa Han Sans', 'Montserrat', 'Sans-serif';
+  }
+
+  .more-detail-inline-block {
+    width: 49%;
+    display: inline-block;
+  }
+
+  .more-detail-right {
+    margin-left: 12px;
+    position: relative;
+    right: -10px;
+  }
+
+  .more-detail-description {
+    font-size: 14px;
+    font-family: 'Spoqa Han Sans', 'Montserrat', 'Sans-serif';
+  }
+
+  .more-detail-introduce {
+    font-size: 14px;
+    font-family: 'Spoqa Han Sans', 'Montserrat', 'Sans-serif';
+  }
+
+  .more-detail-margin-bottom {
+    margin-bottom: 30px
+  }
+
+  .more-detail-profile-image {
+    width: 120px;
+    height: 120px;
+    margin-top: 15px;
+    margin-bottom: -10px;
+    margin-left: 160px;
+    margin-right: auto;
+    border-radius: 50%;
+    position: relative;
+  }
 
 </style>
