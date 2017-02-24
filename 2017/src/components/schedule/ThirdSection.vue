@@ -22,7 +22,7 @@
             time="10:10 ~ 10:50"
             title="Compose everything with rx & kotlin"
             presenter="허재위"
-            profileImage="../../src/assets/image/profile_hjw.jpg"
+            profileImage="../../assets/image/profile_hjw.jpg"
             level="상"
 
             detail="
@@ -41,7 +41,7 @@ https://github.com/importre/ready-for-production"></session-item>
             time="11:00 ~ 11:40"
             title="Some OK Practices in Android Development"
             presenter="황성현"
-            profileImage="../../src/assets/image/profile_hsh.png"
+            profileImage="../../assets/image/profile_hsh.png"
             level="상"
 
             detail="
@@ -55,7 +55,7 @@ https://github.com/importre/ready-for-production"></session-item>
             time="11:50 ~ 12:15"
             title="개밥먹기 - FaceBook KeyFrame 사용해 앱에 에니메이션 적용해보기"
             presenter="이영찬"
-            profileImage="../../src/assets/image/profile_lyc.png"
+            profileImage="../../assets/image/profile_lyc.png"
             level="중하"
 
             detail="
@@ -119,7 +119,7 @@ https://www.linkedin.com/in/rfrost77"></session-item>
             time="15:10 ~ 15:50"
             title="빠르고 지속적으로 전달하기: Continuous Delivery for Android"
             presenter="남상균"
-            profileImage="../../src/assets/image/profile_ksg.jpg"
+            profileImage="../../assets/image/profile_ksg.jpg"
             level="상"
 
             detail="
@@ -141,7 +141,7 @@ https://www.linkedin.com/in/sangkyoonnam<br />
             time="16:00 ~ 16:25"
             title="UiAutomator와 AWS Device Farm 을 활용한 UI 테스팅 자동화"
             presenter="유윤재"
-            profileImage="../../src/assets/image/profile_yyj.jpg"
+            profileImage="../../assets/image/profile_yyj.jpg"
             level="상"
 
             detail="
@@ -157,7 +157,7 @@ UiAutomator와 AWS Device Farm을 활용하면 클라우드에서 자동화된 U
             time="16:35 ~ 17:15"
             title="Anatomy of Realm"
             presenter="김용욱"
-            profileImage="../../src/assets/image/profile_yyj.jpg"
+            profileImage="../../assets/image/profile_yyj.jpg"
             level="상"
 
             detail="aa"
