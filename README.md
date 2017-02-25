@@ -9,7 +9,6 @@
 ``` shell
 $cd 2017
 $npm install
-$npm install --save babel-runtime --save
 $npm run dev
 ( webpack.config.js 주석 참조 )
 ```
