@@ -50,7 +50,10 @@
             scrollToY(1450, 1000, 'easeInOutQuint');
             break;
           case 2:
-            scrollToY(2450, 1000, 'easeInOutQuint');
+            scrollToY(2900, 1000, 'easeInOutQuint');
+            break;
+          case 3:
+            scrollToY(3450, 1000, 'easeInOutQuint');
             break;
         }
       }
@@ -156,8 +159,11 @@
     .logo {
       margin-left: auto;
       margin-right: auto;
-      width: 90vw;
+      margin-top: 0px;
+      display: block;
       background-position: center;
+      top: 10px;
+      position: relative;
     }
   }
 
