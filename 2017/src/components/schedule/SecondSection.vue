@@ -56,7 +56,7 @@
 
   .main {
     max-width: 1024px;
-    min-width: 1024px;
+    /*min-width: 1024px;*/
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
@@ -121,6 +121,32 @@
     cursor: pointer;
     color: black;
     font-family: 'Spoqa Han Sans', 'Sans-serif';
+  }
+
+  @media (max-width: 1100px) {
+    .left-logo {
+      width: 90vw;
+      height: 20vh;
+      margin-left: 0;
+      margin-right: 0;
+      position: relative;
+      left: 0px;
+    }
+
+    .right-content {
+      padding-left: 0;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      display: inline;
+    }
+
+    .text-04 {
+      width: 229px;
+      padding-bottom: 13px;
+      padding-top: 13px;
+      margin: 0 auto 20px auto;
+    }
   }
 
 </style>

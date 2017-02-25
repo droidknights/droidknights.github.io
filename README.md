@@ -10,7 +10,6 @@
 $cd 2017
 $npm install
 $npm run dev
-( webpack.config.js 주석 참조 )
 ```
 
 

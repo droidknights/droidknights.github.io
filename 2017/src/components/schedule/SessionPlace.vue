@@ -84,8 +84,8 @@
   .container {
     width: 100%;
     border-radius: 2px;
-    margin-left: 4px;
-    margin-right: 4px;
+    /*margin-left: 4px;*/
+    /*margin-right: 4px;*/
     border: 6px solid #76ff03;
     position: relative;
     top: -34px;
@@ -135,6 +135,41 @@
     margin-bottom: 20px;
     padding-left: 30px;
     padding-right: 30px;
+  }
+
+  @media (max-width: 1100px) {
+    .text-01 {
+      display: table;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 30px;
+    }
+
+    .text-02 {
+      display: table;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 30px;
+    }
+
+    .text-03 {
+      display: table;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .label {
+      display: table;
+      width: 0;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .detail {
+      display: table;
+      width: 0;
+      text-align: center;
+    }
   }
 
 </style>

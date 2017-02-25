@@ -2,7 +2,6 @@
   <div class="header-back">
     <div class="header">
       <div class="logo">
-
       </div>
 
       <div class="section" @click="onClickMenu(0)">
@@ -120,7 +119,6 @@
 
   .header {
     max-width: 1024px;
-    min-width: 1024px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
@@ -129,11 +127,8 @@
   .logo {
     width: 25%;
     height: 51px;
-    font-size: 20px;
     color: #000;
     margin-top: 12px;
-    font-weight: bold;
-    letter-spacing: 2px;
     margin-right: 250px;
     display: inline-block;
     background-size: contain;
@@ -151,6 +146,19 @@
     position: relative;
     top: -20px;
     font-family: 'Montserrat', sans-serif;
+  }
+
+  @media (max-width: 1100px) {
+    .section {
+      display: none;
+    }
+
+    .logo {
+      margin-left: auto;
+      margin-right: auto;
+      width: 90vw;
+      background-position: center;
+    }
   }
 
   .border {

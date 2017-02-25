@@ -29,7 +29,7 @@
       </div>
 
       <div class="more-detail-inline-block more-detail-right">
-        <div class="more-detail-profile-image"  v-bind:style="{ 'background-image': 'url(' + profileImage + ')' }"/>
+        <div class="more-detail-profile-image" v-bind:style="{ 'background-image': 'url(' + profileImage + ')' }"/>
         <div class="more-detail-label">
           발표자 소개
         </div>
@@ -96,14 +96,15 @@
 <style scoped>
   .session-container {
     /*height: 76px;*/
-    margin-top: -18px;
+    /*margin-top: -18px;*/
     position: relative;
+    margin-bottom: 20px;
   }
 
   .mini-container {
-    height: 62px;
-    margin-top: -24px;
-    margin-bottom: 20px;
+    height: 49px;
+    /*margin-top: -24px;*/
+    /*margin-bottom: 20px;*/
   }
 
   .border {
@@ -154,7 +155,7 @@
     margin-right: 10px;
     margin-left: 10px;
     position: relative;
-    top: -45px;
+    top: -5px;
   }
 
   .down-arrow {
@@ -164,11 +165,9 @@
     -moz-border-radius: 25px;
     -webkit-border-radius: 25px;
     border-radius: 25px;
-    vertical-align: middle;
-    text-align: center;
-    font-size: 30px;
-    top: -50px;
-    left: 922px;
+    top: -51px;
+    float: right;
+    left: 7px;
     display: inline-block;
     position: relative;
     cursor: pointer;
@@ -212,11 +211,9 @@
     -moz-border-radius: 25px;
     -webkit-border-radius: 25px;
     border-radius: 25px;
-    vertical-align: middle;
-    text-align: center;
-    font-size: 30px;
-    top: -50px;
-    left: 922px;
+    top: -51px;
+    left: 7px;
+    float: right;
     display: inline-block;
     position: relative;
     cursor: pointer;
@@ -272,6 +269,46 @@
     margin-right: auto;
     border-radius: 50%;
     position: relative;
+  }
+
+  @media (max-width: 1100px) {
+    .border {
+      text-align: center;
+      padding: 5px 25px 5px 25px;
+    }
+
+    .not-border {
+      text-align: center;
+    }
+
+    .title {
+      display: block;
+      width: inherit;
+      text-align: center;
+      position: relative;
+    }
+
+    .presenter {
+      display: block;
+      float: inherit;
+      margin-top: 4px;
+    }
+
+    .more-detail-inline-block {
+      width: 100%;
+    }
+
+    .more-detail-right {
+      margin-left: 0;
+      margin-right: 0;
+      right: 0;
+    }
+
+    .more-detail-profile-image {
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 0;
+    }
   }
 
 </style>

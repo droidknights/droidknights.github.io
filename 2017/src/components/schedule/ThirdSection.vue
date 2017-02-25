@@ -10,6 +10,15 @@
         </div>
         <div class="about-container">
           <session-item
+            time="09:00 ~ 10:00"
+            title="등록시간"
+            presenter="DroidKnights"
+            detail="aa"
+            introduce="introduce"
+            isOpening=true></session-item>
+
+
+          <session-item
             time="10:00 ~ 10:10"
             title="오프닝"
             presenter="DroidKnights"
@@ -237,7 +246,7 @@ GDG 노예"></session-item>
 
   .main {
     max-width: 1024px;
-    min-width: 1024px;
+    /*min-width: 1024px;*/
     margin: 0 auto;
     background-color: black;
     box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.2);
@@ -266,7 +275,7 @@ GDG 노예"></session-item>
   .about-container {
     padding-top: 30px;
     display: block;
-    margin-bottom: -10px;
+    margin-bottom: 30px;
   }
 
 </style>

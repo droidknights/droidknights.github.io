@@ -1,25 +1,37 @@
 <template>
 
-  <div class="main-title-back" id="element">
+  <div class="main-title-back">
+    <!--<div class="logo_image" :style="{ width: image_width }"></div>-->
     <div class="logo_image"></div>
-    <!--<div class="main-title">-->
-
-    <!--<div class="main-sector-left">-->
-    <!--</div>-->
-
-    <!--</div>-->
   </div>
 
 </template>
 
 <script>
   export default {
-    created() {
-    },
+    name: 'firstSectionNew',
     data() {
-      return {}
+      return {
+        image_width: '50vw'
+      }
     },
-    methods: {}
+
+    created() {
+      window.addEventListener('resize', this.handleResize)
+    },
+
+    beforeDestroy () {
+      window.removeEventListener('resize', this.handleResize)
+    },
+
+    methods: {
+      handleResize (event) {
+        document.documentElement.clientHeight
+        console.log('scrollHeight -> ' + document.documentElement.scrollHeight)
+        console.log('height -> ' + document.documentElement.clientHeight)
+        console.log('width -> ' + document.documentElement.clientWidth)
+      }
+    }
   }
 </script>
 
@@ -28,7 +40,7 @@
   .main-title-back {
     position: relative;
     background-color: #000;
-    height: 850px;
+    height: 95vh;
     padding-top: 42px;
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
@@ -36,31 +48,10 @@
     top: inherit;
   }
 
-  .main-title {
-    max-width: 1024px;
-    min-width: 1024px;
-    margin: 0 auto;
-  }
-
-  .main-sector-left {
-    display: inline-block;
-    padding-right: 80px;
-    padding-left: 80px;
-    background-color: white;
-  }
-
-  .main-sector-right {
-    display: inline-block;
-    background-color: white;
-    height: 420px;
-  }
-
   .logo_image {
-    width: 736px;
-    height: 640px;
-    margin: 0 auto;
-    margin-bottom: 50px;
-    margin-top: 70px;
+    height: 75vh;
+    margin-bottom: 20px;
+    margin-top: 50px;
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
