@@ -8,10 +8,11 @@ import Home from './pages/Home.vue'
 import Schedule from './pages/Schedule.vue'
 
 const router = new VueRouter({
+  mode: 'history',
   routes: [
     {
       path: '/',
-      component: Home
+      component: Schedule
     },
     {
       path: '/schedule',

@@ -36,6 +36,7 @@
         </div>
 
         <div style="width: 100%; height: 300px">
+          <div id="map"></div>
           <google-map :center="center" :zoom="10">
             <map-marker
               :position="m.position"
@@ -99,7 +100,6 @@
 
   .container {
     border-radius: 2px;
-    height: 300px;
     margin-left: 4px;
     margin-right: 4px;
     border: 6px solid #76ff03;

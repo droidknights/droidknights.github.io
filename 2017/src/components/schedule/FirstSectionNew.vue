@@ -1,6 +1,6 @@
 <template>
 
-  <div class="main-title-back">
+  <div class="main-title-back" id="element">
     <div class="logo_image"></div>
     <!--<div class="main-title">-->
 

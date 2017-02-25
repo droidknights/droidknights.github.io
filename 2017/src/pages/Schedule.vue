@@ -1,5 +1,5 @@
 <template>
-  <div class="root">
+  <div class="root" v-bind:id="rootaa">
 
     <header-navi></header-navi>
 
@@ -138,7 +138,7 @@
   */
 
   .footer-back {
-    background-color: #76ff03;
+    background-color: black;
     height: 80px;
   }
 
@@ -148,7 +148,7 @@
     padding-top: 30px;
     margin: 0 auto 0 auto;
     text-align: center;
-    color: black;
+    color: white;
     font-weight: bold;
   }
 

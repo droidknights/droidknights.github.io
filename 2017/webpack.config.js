@@ -1,11 +1,20 @@
 var path = require('path')
 var webpack = require('webpack')
 
+/* fixme : 개발시에는 /dist/    배포시에는 /2017/dist/ 로 해야한다 ( github 에서 2017 폴더를 만들어 사용하기 때문 ) */
+var publicPath
+if (process.env.NODE_ENV === 'production') {
+  publicPath = '/2017/dist/'
+}
+else {
+  publicPath = '/dist/'
+}
+
 module.exports = {
   entry: './src/main.js',
   output: {
     path: path.resolve(__dirname, './dist'),
-    publicPath: '/2017/dist/', // todo : 개발시에는 /dist/    배포시에는 /2017/dist/ 로 해야한다
+    publicPath: publicPath,
     filename: 'build.js'
   },
   resolve: {
