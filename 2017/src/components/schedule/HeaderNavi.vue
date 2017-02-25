@@ -41,6 +41,7 @@
       return {}
     },
     methods: {
+      /* todo? fixme?: 해당 섹션의 div 위치를 찾아서 scroll 해주도록 수정 */
       onClickMenu: (index) => {
         switch (index) {
           case 0:
