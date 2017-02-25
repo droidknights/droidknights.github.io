@@ -10,7 +10,7 @@ Vue.use(VueGoogleMaps, {
     key: 'AIzaSyDvFB_V9GZguW_JIrUK55_3KWoTYThgy1E',
     v: '3.26'
   }
-});
+})
 
 new Vue({
   router

@@ -1,32 +1,28 @@
 <template>
-  <div>
-
-    <div class="header-back">
-      <div class="header">
-        <div class="logo">
-
-        </div>
-
-        <div class="section">
-          INTRODUCE
-        </div>
-        <div class="section">
-          SESSION
-        </div>
-        <div class="section">
-          PLACE
-        </div>
-        <div class="section">
-          SPONSOR
-        </div>
-        <div class="section border">
-          REGISTER
-        </div>
-
+  <div class="header-back">
+    <div class="header">
+      <div class="logo">
 
       </div>
-    </div>
 
+      <div class="section" @click="onClickMenu(0)">
+        INTRODUCE
+      </div>
+      <div class="section">
+        SESSION
+      </div>
+      <div class="section">
+        PLACE
+      </div>
+      <div class="section">
+        SPONSOR
+      </div>
+      <div class="section border">
+        REGISTER
+      </div>
+
+
+    </div>
   </div>
 </template>
 
@@ -37,7 +33,12 @@
     data() {
       return {}
     },
-    methods: {}
+    methods: {
+      onClickMenu: (index) => {
+        console.log("aaa : " + index)
+        window.scrollTo(0, 1000)
+      }
+    }
   }
 </script>
 

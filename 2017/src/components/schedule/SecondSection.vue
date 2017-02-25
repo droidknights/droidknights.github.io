@@ -68,6 +68,7 @@
     width: 336px;
     height: 300px;
     margin-bottom: 50px;
+    margin-left: 18px;
     margin-top: 70px;
     background-size: contain;
     background-position: center center;
@@ -80,7 +81,7 @@
     display: inline-block;
     vertical-align: top;
     padding-left: 40px;
-    padding-top: 90px;
+    padding-top: 105px;
     color: black;
   }
 
@@ -109,15 +110,16 @@
 
   .text-04 {
     border: 6px solid #76ff03;
-    border-radius: 3px;
+    background-color: #76ff03;
+    border-radius: 2px;
     text-align: center;
-    width: 219px;
+    width: 229px;
     font-weight: bold;
     font-size: 16px;
-    padding-bottom: 14px;
-    padding-top: 14px;
+    padding-bottom: 13px;
+    padding-top: 13px;
     cursor: pointer;
-    color: white;
+    color: black;
     font-family: 'Spoqa Han Sans', 'Sans-serif';
   }
 
