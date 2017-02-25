@@ -35,18 +35,7 @@
           보라매역에서 동작 05-1, 6516, 153, 6513, 461, 6514
         </div>
 
-        <div style="width: 100%; height: 300px">
-          <div id="map"></div>
-          <google-map :center="center" :zoom="10">
-            <map-marker
-              :position="m.position"
-              :opacity="m.opacity"
-              :draggable="m.draggable"
-              v-for="m in markers"
-            >
-            </map-marker>
-          </google-map>
-        </div>
+        <iframe class="g-map" width="100%" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJha7hI7uffDURiSoVvtsiJ_Q&key=AIzaSyB7-Du8H42JpIRj1E3XxGGUG7GbSC6OhiQ" allowfullscreen></iframe>
 
       </div>
       <!---->
@@ -141,6 +130,13 @@
     font-size: 18px;
     width: 550px;
     line-height: 26px;
+  }
+
+  .g-map {
+    margin-top: 20px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
   }
 
 </style>
