@@ -34,10 +34,9 @@
           신대방역에서 동작 05-1 , 6511, 6516, 5522A, 5524<br>
           보라매역에서 동작 05-1, 6516, 153, 6513, 461, 6514
         </div>
-
-        <iframe class="g-map" width="100%" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJha7hI7uffDURiSoVvtsiJ_Q&key=AIzaSyB7-Du8H42JpIRj1E3XxGGUG7GbSC6OhiQ" allowfullscreen></iframe>
-
       </div>
+
+      <iframe class="g-map" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJha7hI7uffDURiSoVvtsiJ_Q&key=AIzaSyB7-Du8H42JpIRj1E3XxGGUG7GbSC6OhiQ" allowfullscreen></iframe>
       <!---->
 
     </div>
@@ -45,17 +44,12 @@
 </template>
 
 <script>
-  import * as VueGoogleMaps from 'vue2-google-maps';
-
   export default {
     components: {},
     created() {
     },
     data() {
-      return {
-        markers: [],
-        center: { lat: 37.4932343, lng: 126.9175175 }
-      }
+      return {}
     },
     methods: {}
   }
@@ -88,6 +82,7 @@
   }
 
   .container {
+    width: 100%;
     border-radius: 2px;
     margin-left: 4px;
     margin-right: 4px;
@@ -133,10 +128,13 @@
   }
 
   .g-map {
+    width: 100%;
+    height: 450px;
+    position: relative;
     margin-top: 20px;
-    margin-top: 20px;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
   }
 
 </style>
