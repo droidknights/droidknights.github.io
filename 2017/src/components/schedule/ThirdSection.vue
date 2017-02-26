@@ -278,4 +278,11 @@ GDG 노예"></session-item>
     margin-bottom: 30px;
   }
 
+  @media (max-width: 1100px) {
+    .section-session-container {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+
 </style>

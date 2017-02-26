@@ -7,19 +7,13 @@
     </div>
     <div class="container">
 
-      <div class="item-container">
-        <div class="realm">
-        </div>
+      <div class="item-container realm">
       </div>
 
-      <div class="item-container">
-        <div class="realm">
-        </div>
+      <div class="item-container jpub">
       </div>
 
-      <div class="item-container">
-        <div class="realm">
-        </div>
+      <div class="item-container google">
       </div>
 
     </div>
@@ -77,11 +71,18 @@
     display: inline-block;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url(../../assets/image/sponsor_bg.svg);
   }
 
   .realm {
+    background-image: url(../../assets/image/spon_realm.png);
+  }
 
+  .jpub {
+    background-image: url(../../assets/image/spon_jpub.png);
+  }
+
+  .google {
+    background-image: url(../../assets/image/spon_google.png);
   }
 
   @media (max-width: 1100px) {

@@ -28,6 +28,7 @@
 <script>
   export default {
     created() {
+      window.addEventListener('resize', this.handleResize)
       window.requestAnimFrame = (function () {
         return window.requestAnimationFrame ||
           window.webkitRequestAnimationFrame ||
@@ -37,24 +38,35 @@
           };
       })();
     },
-    data() {
-      return {}
+
+    beforeDestroy () {
+      window.removeEventListener('resize', this.handleResize)
     },
+
+    data() {
+      return {
+        windowHeight: document.documentElement.clientHeight
+      }
+    },
+
     methods: {
+      handleResize (event) {
+        this.windowHeight = document.documentElement.clientHeight
+      },
       /* todo? fixme?: 해당 섹션의 div 위치를 찾아서 scroll 해주도록 수정 */
-      onClickMenu: (index) => {
+      onClickMenu: function (index) {
         switch (index) {
           case 0:
-            scrollToY(850, 1000, 'easeInOutQuint');
+            scrollToY(this.windowHeight, 1000, 'easeInOutQuint');
             break;
           case 1:
-            scrollToY(1450, 1000, 'easeInOutQuint');
+            scrollToY(this.windowHeight + 520, 1000, 'easeInOutQuint');
             break;
           case 2:
-            scrollToY(2900, 1000, 'easeInOutQuint');
+            scrollToY(this.windowHeight + 520 + 1300, 1000, 'easeInOutQuint');
             break;
           case 3:
-            scrollToY(3450, 1000, 'easeInOutQuint');
+            scrollToY(this.windowHeight + 520 + 1300 + 800, 1000, 'easeInOutQuint');
             break;
         }
       }

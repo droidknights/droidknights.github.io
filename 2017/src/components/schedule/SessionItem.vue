@@ -274,7 +274,9 @@
   @media (max-width: 1100px) {
     .border {
       text-align: center;
-      padding: 5px 25px 5px 25px;
+      padding: 5px 15px 5px 15px;
+      margin-left: 0;
+      margin-right: 0;
     }
 
     .not-border {
@@ -288,10 +290,19 @@
       position: relative;
     }
 
+    .down-arrow {
+      left: 17px;
+    }
+
     .presenter {
       display: block;
       float: inherit;
       margin-top: 4px;
+    }
+
+    .more-detail {
+      margin-left: 0;
+      margin-right: 0;
     }
 
     .more-detail-inline-block {
