@@ -16,7 +16,7 @@
       <div class="section" @click="onClickMenu(3)">
         SPONSOR
       </div>
-      <div class="section border">
+      <div class="section border" @click="onClickRegister()">
         REGISTER
       </div>
 
@@ -66,9 +66,12 @@
             scrollToY(this.windowHeight + 520 + 1300, 1000, 'easeInOutQuint');
             break;
           case 3:
-            scrollToY(this.windowHeight + 520 + 1300 + 800, 1000, 'easeInOutQuint');
+            scrollToY(this.windowHeight + 520 + 1ls300 + 800, 1000, 'easeInOutQuint');
             break;
         }
+      },
+      onClickRegister: function () {
+        window.open("http://onoffmix.com/event/92727", '_blank');
       }
     }
   }
@@ -162,6 +165,11 @@
     position: relative;
     top: -20px;
     font-family: 'Montserrat', sans-serif;
+  }
+
+  .section:hover {
+    text-decoration: underline;
+    text-underline-position: under;
   }
 
   @media (max-width: 1100px) {

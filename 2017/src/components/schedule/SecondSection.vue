@@ -22,7 +22,7 @@
             장소 : 전문건설회관 (보라매공원)<br>
             참가비 : 3만원 (학생 1.5만원)
           </div>
-          <div class="text-04">
+          <div class="text-04" @click="onClickRegister()">
             참가 신청하기
           </div>
 
@@ -42,7 +42,11 @@
     data() {
       return {}
     },
-    methods: {}
+    methods: {
+      onClickRegister: function () {
+        window.open("http://onoffmix.com/event/92727", '_blank');
+      }
+    }
   }
 </script>
 
