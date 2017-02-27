@@ -7,14 +7,17 @@
     </div>
     <div class="container">
 
-      <div class="item-container realm">
+      <div class="contact" @click="onClickContact()">
+        CONTACT : https://docs.google.com/forms..
       </div>
+      <!--<div class="item-container realm">-->
+      <!--</div>-->
 
-      <div class="item-container jpub">
-      </div>
+      <!--<div class="item-container jpub">-->
+      <!--</div>-->
 
-      <div class="item-container google">
-      </div>
+      <!--<div class="item-container google">-->
+      <!--</div>-->
 
     </div>
   </div>
@@ -28,7 +31,11 @@
     data() {
       return {}
     },
-    methods: {}
+    methods: {
+      onClickContact: function () {
+        window.open("https://docs.google.com/forms/d/e/1FAIpQLSeIZeXY4MQdYmT5rq9HTBIPRfV8Jdsg83VJ2lZNDfkW8NljQA/viewform", '_blank');
+      }
+    }
   }
 </script>
 
@@ -63,6 +70,15 @@
     margin-right: auto;
     position: relative;
     display: table;
+  }
+
+  .contact {
+    color: white;
+    margin-top: 40px;
+    font-size: 40px;
+    border-radius: 2px;
+    text-align: center;
+    cursor: pointer;
   }
 
   .item-container {
