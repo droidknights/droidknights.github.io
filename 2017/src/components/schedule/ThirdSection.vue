@@ -120,7 +120,7 @@ Firebase를 메인 백엔드 솔루션으로 사용할때 겪었던 문제와 �
             time="14:35 ~ 15:00"
             title="Firebase Remote Config로 배포없이 앱 운영하기"
             presenter="이승민"
-            profileImage=""
+            profileImage="https://droidknights.github.io/2017/src/assets/image/profile_lsm.jpg"
             level="하"
 
             detail="
