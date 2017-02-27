@@ -62,7 +62,7 @@ https://github.com/importre/ready-for-production"></session-item>
 
           <session-item
             time="11:50 ~ 12:15"
-            title="개밥먹기 - FaceBook KeyFrame 사용해 앱에 에니메이션 적용해보기"
+            title="KeyFrame과 Lottie로 인터렉티브한 애니메이션을 구현해보기"
             presenter="이영찬"
             profileImage="https://droidknights.github.io/2017/src/assets/image/profile_lyc.png"
             level="중하"
@@ -129,21 +129,13 @@ https://www.linkedin.com/in/rfrost77"></session-item>
             title="빠르고 지속적으로 전달하기: Continuous Delivery for Android"
             presenter="남상균"
             profileImage="https://droidknights.github.io/2017/src/assets/image/profile_ksg.jpg"
-            level="상"
+            level="중상"
 
             detail="
 최근 높은 서비스 품질을 위해 사용자의 피드백을 빠르게 반영하고, 잦은 릴리즈를 반복하는 것이 일반화되고 있습니다. 이를 위해 효율적으로 테스트와 빌드, 출시를 수행하는 것이 필수적입니다. 이번 발표에서는 fastlane과 bitrise를 이용하여 인수 테스트 자동화, 사내 베타 배포와 마켓 출시 등 릴리즈 과정을 통합하고 소규모 그룹에서도 빠르고 지속적으로 앱을 전달할 수 있는 방법을 소개하고자 합니다."
 
             introduce="
-현재 안드로이드 첫화면 플랫폼인 캐시슬라이드의 테크리드로 일하고 있습니다. iOS와 안드로이드 초기부터 개발해 왔으며 상세한 경력은 링크드인을 첨부드립니다.<br />
-https://www.linkedin.com/in/sangkyoonnam<br />
-<br />
-<b>주요 발표 경력은 다음과 같습니다.</b><br />
-- 라즈베리파이로 크롬캐스트 만들기: 2013 Daum DevOn<br />
--그루비로 안드로이드 앱 개발하기 http://www.slideshare.net/gdgkorea/gkac-2014-nov<br />
--JUnit4와 Robolectric을 이용한 안드로이드 단위 테스트 : GDG Korea DevFair 2014<br />
-- 포그라운드 서비스를 사용하며 겪은 일들: https://realm.io/kr/news/android-forground-service-cashslide/<br />
-- 캐시슬라이드 Realm 적용 사례"></session-item>
+엔비티에서 첫 화면 서비스 '캐시슬라이드'의 아키텍쳐 오너로 일하고 있습니다."></session-item>
 
 
           <session-item
