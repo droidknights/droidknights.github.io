@@ -66,7 +66,7 @@
             scrollToY(this.windowHeight + 520 + 1300, 1000, 'easeInOutQuint');
             break;
           case 3:
-            scrollToY(this.windowHeight + 520 + 1ls300 + 800, 1000, 'easeInOutQuint');
+            scrollToY(this.windowHeight + 520 + 1300 + 800, 1000, 'easeInOutQuint');
             break;
         }
       },
