@@ -161,9 +161,11 @@ UiAutomator와 AWS Device Farm을 활용하면 클라우드에서 자동화된 U
             profileImage=""
             level="상"
 
-            detail="aa"
+            detail="
+Realm Java 바인드만큼 다양한 이미지로 사용자에게 전달되는 기술은 없을 것 같습니다. Realm의 구현 방식과 Realm Java의 바인드 방식을 설명하여 이해를 돕고 같이 개선해 나갈 방안을 찾는 것이 이 세션의 목표입니다."
 
-            introduce="introduce"></session-item>
+            introduce="
+Realm에서 안드로이드 바인드인 Realm Java에 참여하며 문서 지역화, 집필, 발표에도 참여하고 있습니다."></session-item>
 
 
           <session-item
