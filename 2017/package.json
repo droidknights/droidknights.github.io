@@ -14,8 +14,7 @@
     "rxjs": "^5.0.2",
     "vue": "^2.1.0",
     "vue-router": "^2.2.0",
-    "vue-rx": "^2.2.0",
-    "vue2-google-maps": "^0.4.2"
+    "vue-rx": "^2.2.0"
   },
   "devDependencies": {
     "babel-core": "^6.0.0",
