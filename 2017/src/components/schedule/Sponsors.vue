@@ -79,6 +79,7 @@
     border-radius: 2px;
     text-align: center;
     cursor: pointer;
+    word-break:break-all;
   }
 
   .item-container {
