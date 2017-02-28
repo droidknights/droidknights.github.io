@@ -157,7 +157,6 @@
 
   .section {
     display: inline-block;
-    font-weight: bold;
     margin-right: 14px;
     margin-bottom: 5px;
     color: #000;
@@ -168,8 +167,7 @@
   }
 
   .section:hover {
-    text-decoration: underline;
-    text-underline-position: under;
+    font-weight: bold;
   }
 
   @media (max-width: 1100px) {
