@@ -36,7 +36,7 @@
         </div>
       </div>
 
-      <iframe class="g-map" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=%EC%A0%84%EB%AC%B8%EA%B1%B4%EC%84%A4%EA%B3%B5%EC%A0%9C%EC%A1%B0%ED%95%A9&key=AIzaSyB7-Du8H42JpIRj1E3XxGGUG7GbSC6OhiQ" allowfullscreen></iframe>
+      <iframe class="g-map" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJZWpZ47qffDUResdjxrOQiXQ&key=AIzaSyB7-Du8H42JpIRj1E3XxGGUG7GbSC6OhiQ" allowfullscreen></iframe>
       <!---->
 
     </div>
