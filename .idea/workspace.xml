@@ -2,10 +2,237 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d74ffd1f-1291-4846-81ba-304eef169ac6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/.bowerrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/.ruby-version" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/Gemfile.lock" afterPath="$PROJECT_DIR$/blog/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/bin/deploy" afterPath="$PROJECT_DIR$/blog/bin/deploy" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/404.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/about.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/assets/.sprockets-manifest-474ade6423031c173e0d60865cadcae0.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/assets/about.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/assets/apple-touch-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/assets/application.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/assets/documentation/chalk-intro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/assets/documentation/chalk-intro@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/assets/documentation/enlarge.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/assets/documentation/enlarge@2x.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/assets/documentation/sample-image.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/assets/documentation/sample-image@2x.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/assets/ionicons/ionicons.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/assets/ionicons/ionicons.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/assets/ionicons/ionicons.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/assets/light.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/assets/notfound-light.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/assets/og-image.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/assets/vendor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/fluidbox/Gruntfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/fluidbox/LICENSE.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/fluidbox/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/fluidbox/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/fluidbox/demo/css/styles.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/fluidbox/demo/css/styles.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/fluidbox/demo/fonts/BLOKKRegular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/fluidbox/demo/fonts/BLOKKRegular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/fluidbox/demo/fonts/BLOKKRegular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/fluidbox/demo/fonts/BLOKKRegular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/fluidbox/demo/fonts/fontello.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/fluidbox/demo/fonts/fontello.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/fluidbox/demo/fonts/fontello.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/fluidbox/demo/fonts/fontello.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/fluidbox/demo/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/fluidbox/demo/src/css/styles.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/fluidbox/dist/css/fluidbox.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/fluidbox/dist/css/fluidbox.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/fluidbox/dist/js/jquery.fluidbox.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/fluidbox/grunt/aliases.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/fluidbox/grunt/clean.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/fluidbox/grunt/concurrent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/fluidbox/grunt/jshint.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/fluidbox/grunt/postcss.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/fluidbox/grunt/sass.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/fluidbox/grunt/uglify.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/fluidbox/grunt/watch.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/fluidbox/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/fluidbox/license.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/fluidbox/src/css/fluidbox.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/fluidbox/src/js/jquery.fluidbox.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/AUTHORS.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/dist/core.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/dist/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/dist/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/dist/jquery.min.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/dist/jquery.slim.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/dist/jquery.slim.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/dist/jquery.slim.min.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/external/sizzle/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/external/sizzle/dist/sizzle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/external/sizzle/dist/sizzle.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/external/sizzle/dist/sizzle.min.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/ajax.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/ajax/jsonp.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/ajax/load.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/ajax/parseXML.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/ajax/script.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/ajax/var/location.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/ajax/var/nonce.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/ajax/var/rquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/ajax/xhr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/attributes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/attributes/attr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/attributes/classes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/attributes/prop.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/attributes/support.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/attributes/val.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/callbacks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/core.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/core/DOMEval.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/core/access.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/core/init.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/core/parseHTML.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/core/ready-no-deferred.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/core/ready.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/core/readyException.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/core/stripAndCollapse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/core/support.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/core/var/rsingleTag.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/css.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/css/addGetHookIf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/css/adjustCSS.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/css/curCSS.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/css/hiddenVisibleSelectors.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/css/showHide.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/css/support.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/css/var/cssExpand.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/css/var/getStyles.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/css/var/isHiddenWithinTree.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/css/var/rmargin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/css/var/rnumnonpx.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/css/var/swap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/data.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/data/Data.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/data/var/acceptData.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/data/var/dataPriv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/data/var/dataUser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/deferred.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/deferred/exceptionHook.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/deprecated.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/dimensions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/effects.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/effects/Tween.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/effects/animatedSelector.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/event.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/event/ajax.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/event/alias.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/event/focusin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/event/support.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/event/trigger.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/exports/amd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/exports/global.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/manipulation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/manipulation/buildFragment.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/manipulation/getAll.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/manipulation/setGlobalEval.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/manipulation/support.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/manipulation/var/rcheckableType.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/manipulation/var/rscriptType.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/manipulation/var/rtagName.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/manipulation/wrapMap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/offset.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/queue.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/queue/delay.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/selector-native.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/selector-sizzle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/selector.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/serialize.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/traversing.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/traversing/findFilter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/traversing/var/dir.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/traversing/var/rneedsContext.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/traversing/var/siblings.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/var/ObjectFunctionString.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/var/arr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/var/class2type.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/var/concat.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/var/document.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/var/documentElement.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/var/fnToString.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/var/getProto.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/var/hasOwn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/var/indexOf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/var/pnum.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/var/push.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/var/rcssNum.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/var/rnothtmlwhite.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/var/slice.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/var/support.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/var/toString.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/jquery/src/wrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/scrollreveal/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/scrollreveal/LICENSE.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/scrollreveal/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/scrollreveal/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/scrollreveal/dist/scrollreveal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/scrollreveal/dist/scrollreveal.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/turbolinks5/CONDUCT.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/turbolinks5/Gemfile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/turbolinks5/Gemfile.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/turbolinks5/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/turbolinks5/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/turbolinks5/bin/blade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/turbolinks5/bin/rackup" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/turbolinks5/config.ru" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/turbolinks5/dist/turbolinks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/turbolinks5/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/turbolinks5/src/turbolinks/BANNER.js.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/turbolinks5/src/turbolinks/VERSION" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/turbolinks5/src/turbolinks/browser_adapter.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/turbolinks5/src/turbolinks/compatibility.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/turbolinks5/src/turbolinks/controller.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/turbolinks5/src/turbolinks/error_renderer.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/turbolinks5/src/turbolinks/head_details.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/turbolinks5/src/turbolinks/helpers.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/turbolinks5/src/turbolinks/history.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/turbolinks5/src/turbolinks/http_request.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/turbolinks5/src/turbolinks/index.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/turbolinks5/src/turbolinks/location.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/turbolinks5/src/turbolinks/progress_bar.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/turbolinks5/src/turbolinks/renderer.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/turbolinks5/src/turbolinks/scroll_manager.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/turbolinks5/src/turbolinks/snapshot.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/turbolinks5/src/turbolinks/snapshot_cache.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/turbolinks5/src/turbolinks/snapshot_renderer.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/turbolinks5/src/turbolinks/start.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/turbolinks5/src/turbolinks/view.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/turbolinks5/src/turbolinks/visit.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/turbolinks5/test/src/fixtures/additional_assets.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/turbolinks5/test/src/fixtures/body_script.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/turbolinks5/test/src/fixtures/eval_false_script.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/turbolinks5/test/src/fixtures/head_script.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/turbolinks5/test/src/fixtures/navigation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/turbolinks5/test/src/fixtures/one.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/turbolinks5/test/src/fixtures/rendering.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/turbolinks5/test/src/fixtures/tracked_asset_change.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/turbolinks5/test/src/fixtures/visit.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/turbolinks5/test/src/head.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/turbolinks5/test/src/helpers/replicant_helpers.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/turbolinks5/test/src/modules/navigation_tests.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/turbolinks5/test/src/modules/rendering_tests.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/turbolinks5/test/src/modules/visit_tests.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/turbolinks5/test/src/test.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/turbolinks5/test/src/test.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/bower_components/turbolinks5/test/vendor/replicant.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/posts/chalk-sample-post-with-all-elements.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/posts/configuring-chalk.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/posts/introducing-chalk.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/robots.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/sitemap.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/tag/design/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/tag/jekyll/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/tag/web/index.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/CNAME" afterPath="$PROJECT_DIR$/blog/CNAME" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/feed.xml" afterPath="$PROJECT_DIR$/blog/feed.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/index.html" afterPath="$PROJECT_DIR$/blog/index.html" />
     </list>
     <ignored path="droidknights.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,18 +258,18 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="68" selection-start-line="26" selection-start-column="68" selection-end-line="26" selection-end-column="68" />
+            <state relative-caret-position="420">
+              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2016-10-15-chalk-sample-post-with-all-elements.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/_posts/2016-10-15-chalk-sample-post-with-all-elements.md">
+      <file leaf-file-name="head.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/blog/_includes/head.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="669">
-              <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+            <state relative-caret-position="474">
+              <caret line="84" column="43" selection-start-line="84" selection-start-column="43" selection-end-line="84" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -51,58 +278,8 @@
       <file leaf-file-name="feed.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/feed.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bower.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/bower.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="image.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/_includes/image.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/_config.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="deploy" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/blog/bin/deploy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" column="6" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="setup" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/bin/setup">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="285">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -171,6 +348,8 @@
         <option value="$PROJECT_DIR$/blog/.bowerrc" />
         <option value="$PROJECT_DIR$/blog/.ruby-version" />
         <option value="$PROJECT_DIR$/blog/bin/deploy" />
+        <option value="$PROJECT_DIR$/blog/index.html" />
+        <option value="$PROJECT_DIR$/blog/_includes/head.html" />
       </list>
     </option>
   </component>
@@ -232,7 +411,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -280,114 +458,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="bin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="droidknights.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="droidknights.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2017" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="droidknights.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="droidknights.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2017" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="droidknights.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="droidknights.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2017" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="droidknights.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="droidknights.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2017" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="droidknights.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="droidknights.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2017" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="schedule" />
+              <option name="myItemId" value="_includes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -535,11 +612,12 @@
       <workItem from="1488432226047" duration="689000" />
       <workItem from="1488433863265" duration="1399000" />
       <workItem from="1488507980274" duration="1406000" />
+      <workItem from="1488509934925" duration="1171000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126730000" />
+    <option name="totallyTimeSpent" value="127901000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1173" extended-state="6" />
@@ -548,6 +626,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13586098" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985783" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24170616" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -558,7 +637,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985783" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -597,20 +675,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/2017/src/assets/css/component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2017/src/assets/css/demo.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="16" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/image/bg.jpg" />
     <entry file="file://$PROJECT_DIR$/src/assets/image/dk_heroImage.png" />
     <entry file="file://$PROJECT_DIR$/2017/src/assets/css/normalize.css">
@@ -777,7 +841,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
           <caret line="196" column="0" selection-start-line="196" selection-start-column="0" selection-end-line="196" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -785,7 +848,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -793,7 +855,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="810">
           <caret line="55" column="8" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="72" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -801,7 +862,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4305">
           <caret line="287" column="21" selection-start-line="287" selection-start-column="21" selection-end-line="287" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -809,7 +869,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="961">
           <caret line="109" column="49" selection-start-line="109" selection-start-column="49" selection-end-line="109" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -817,7 +876,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -835,7 +893,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -843,7 +900,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -851,86 +907,45 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="15" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/_includes/image.html" />
+    <entry file="file://$PROJECT_DIR$/blog/_posts/2016-10-15-chalk-sample-post-with-all-elements.md" />
+    <entry file="file://$PROJECT_DIR$/blog/feed.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/bower.json" />
+    <entry file="file://$PROJECT_DIR$/blog/_config.yml" />
+    <entry file="file://$PROJECT_DIR$/blog/bin/setup" />
+    <entry file="file://$PROJECT_DIR$/blog/.ruby-version" />
+    <entry file="file://$PROJECT_DIR$/blog/.bowerrc" />
+    <entry file="file://$PROJECT_DIR$/blog/bin/deploy" />
+    <entry file="file://$PROJECT_DIR$/blog/posts/configuring-chalk.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="68" selection-start-line="26" selection-start-column="68" selection-end-line="26" selection-end-column="68" />
+        <state relative-caret-position="420">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/_includes/image.html">
+    <entry file="file://$PROJECT_DIR$/blog/_includes/head.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/_posts/2016-10-15-chalk-sample-post-with-all-elements.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="669">
-          <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/feed.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/bower.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/bin/setup">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/.ruby-version">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/.bowerrc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/bin/deploy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="6" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
+        <state relative-caret-position="474">
+          <caret line="84" column="43" selection-start-line="84" selection-start-column="43" selection-end-line="84" selection-end-column="43" />
           <folding />
         </state>
       </provider>
