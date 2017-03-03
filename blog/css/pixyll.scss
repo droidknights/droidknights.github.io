@@ -1,35 +1,27 @@
----
-# The scss file which include files from /blog/_sass/
----
 @charset "UTF-8";
-
 /*!
 * Pixyll - A simple, beautiful Jekyll theme that's mobile first.
 * @author John Otander <johnotander@gmail.com> (http://johnotander.com/)
 * @link https://github.com/johnotander/pixyll
 * @license MIT
 */
-
-@import 'variables';
-
-@import 'basscss';
-
-@import 'base';
-
-@import 'links';
-@import 'positions';
-@import 'clearfix';
-@import 'code';
-@import 'forms';
-@import 'typography';
-@import 'header';
-@import 'tables';
-@import 'animations';
-@import 'footer';
-@import 'social-icons';
-@import 'blockquotes';
-@import 'posts';
-@import 'media-queries';
-@import 'gists';
-@import 'measure';
-@import 'pagination';
+@import '../_sass/variables';
+@import '../_sass/basscss';
+@import '../_sass/base';
+@import '../_sass/links';
+@import '../_sass/positions';
+@import '../_sass/clearfix';
+@import '../_sass/code';
+@import '../_sass/forms';
+@import '../_sass/typography';
+@import '../_sass/header';
+@import '../_sass/tables';
+@import '../_sass/animations';
+@import '../_sass/footer';
+@import '../_sass/social-icons';
+@import '../_sass/blockquotes';
+@import '../_sass/posts';
+@import '../_sass/media-queries';
+@import '../_sass/gists';
+@import '../_sass/measure';
+@import '../_sass/pagination';

@@ -109,7 +109,7 @@ redcarpet:
 permalink:    pretty
 paginate:     4
 sass:
-  sass_dir: ./blog/_sass
+  sass_dir: /blog/_sass
   style: compressed
 gems:
   - jekyll-paginate
