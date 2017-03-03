@@ -4,7 +4,7 @@ email:       aud1220a@gmail.com
 author:      DroidKnights
 description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
 baseurl:     ""
-url:         "http://droidknights.github.io"
+url:         "https://droidknights.github.io"
 date_format: "%b %-d, %Y"
 
 # Google services
@@ -109,7 +109,7 @@ redcarpet:
 permalink:    pretty
 paginate:     4
 sass:
-  sass_dir: /blog/_sass
+  sass_dir: _sass
   style: compressed
 gems:
   - jekyll-paginate
