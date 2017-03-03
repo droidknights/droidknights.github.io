@@ -29,7 +29,7 @@ enable_anchorjs: false
 # Facebook Page integration
 # (for instant articles and other stuff)
 fb_page: false
-fb_page_id: 
+fb_page_id:
 
 # Disqus post comments
 # (leave blank to disable Disqus)
@@ -109,6 +109,7 @@ redcarpet:
 permalink:    pretty
 paginate:     4
 sass:
+  sass_dir: _sass
   style: compressed
 gems:
   - jekyll-paginate
