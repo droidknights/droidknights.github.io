@@ -123,7 +123,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_sass/basscss/_utility-typography.scss" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_sass/basscss/_utility-white-space.scss" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_site/404.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_site/CNAME" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_site/Gemfile" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_site/Gemfile.lock" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_site/LICENSE.txt" />
@@ -152,6 +151,7 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/feed.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nitrous.json" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thanks.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="droidknights.github.io.iws" />
@@ -178,8 +178,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="58" selection-start-line="25" selection-start-column="58" selection-end-line="25" selection-end-column="58" />
+            <state relative-caret-position="315">
+              <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -535,12 +535,12 @@
       <workItem from="1488433863265" duration="1399000" />
       <workItem from="1488507980274" duration="1406000" />
       <workItem from="1488509934925" duration="8465000" />
-      <workItem from="1488523611738" duration="81000" />
+      <workItem from="1488523611738" duration="128000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="135276000" />
+    <option name="totallyTimeSpent" value="135323000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1173" extended-state="6" />
@@ -797,8 +797,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="58" selection-start-line="25" selection-start-column="58" selection-end-line="25" selection-end-column="58" />
+        <state relative-caret-position="315">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
           <folding />
         </state>
       </provider>
