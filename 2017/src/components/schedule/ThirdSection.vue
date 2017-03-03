@@ -1,5 +1,5 @@
 <template>
-  <div class="root">
+  <div class="t-root">
     <div class="main">
 
       <!---->
@@ -262,7 +262,7 @@ GDG에서 활동 중인 이영찬이라고 합니다. 안드로이드 개발 경
 </script>
 
 <style scoped>
-  .root {
+  .t-root {
     position: relative;
     background-color: #000;
     padding-top: 10px;
