@@ -1,20 +1,15 @@
 ---
 layout: page
-title: About Pixyll
+title: About
 permalink: /about/
 tags: about
 ---
 
-This Jekyll theme was crafted with <3 by [John Otander](http://johnotander.com)
-([@4lpine](https://twitter.com/4lpine)).
+3월 25일 (토) 오직 안드로이드만을 위한 수준있는 독립 컨퍼런스가 열립니다.<br />
+드로이드 나이츠는 Android 의 기술 정보의 공유와 커뮤니케이션을 목적으로 하고있습니다.<br />
 
-Checkout the [Github repository](https://github.com/johnotander/pixyll) to download it,
-request a feature, report a bug, or contribute. It's free, and open source
-([MIT](http://opensource.org/licenses/MIT)).
+많이 참석하여 많은 것들을 얻어 가셨으면 좋겠습니다.
 
-Thanks to the following:
 
-* [BASSCSS](http://basscss.com)
-* [Jekyll](http://jekyllrb.com)
-* [Refills](http://refills.bourbon.io/)
-* [Type Scale](http://type-scale.com/)
+
+감사합니다.

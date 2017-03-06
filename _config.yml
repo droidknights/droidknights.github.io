@@ -1,10 +1,10 @@
 # Site settings
-title:       Pixyll
-email:       your_email@example.com
-author:      John Otander
-description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
+title:       DroidKnights
+email:       aud1220a@gmail.com
+author:      DroidKnights
+description: "오래기다리셨습니다. 안드로이드 개발자들을 위한 수준있는 독립 컨퍼런스가 열립니다."
 baseurl:     ""
-url:         "http://pixyll.com"
+url:         "https://droidknights.github.io"
 date_format: "%b %-d, %Y"
 
 # Google services
@@ -29,7 +29,7 @@ enable_anchorjs: false
 # Facebook Page integration
 # (for instant articles and other stuff)
 fb_page: false
-fb_page_id: 
+fb_page_id:
 
 # Disqus post comments
 # (leave blank to disable Disqus)

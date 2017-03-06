@@ -1,26 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/jekyll/pixyll/2014/06/08/pixyll-has-pagination/</loc>
-<lastmod>2014-06-08T20:21:29+09:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/jekyll/pixyll/2014/06/09/so-what-is-jekyll/</loc>
-<lastmod>2014-06-09T21:32:18+09:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/jekyll/pixyll/2014/06/10/see-pixyll-in-action/</loc>
-<lastmod>2014-06-10T21:31:19+09:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/jekyll/pixyll/2014/06/12/welcome-to-pixyll/</loc>
-<lastmod>2014-06-12T00:31:19+09:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/jekyll/pixyll/2015/07/11/announcing-pixyll-version-2/</loc>
-<lastmod>2015-07-11T00:00:00+09:00</lastmod>
-</url>
-<url>
 <loc>http://localhost:4000/404.html</loc>
 </url>
 <url>
@@ -34,9 +14,6 @@
 </url>
 <url>
 <loc>http://localhost:4000/thanks/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/page2/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/2017/index.html</loc>

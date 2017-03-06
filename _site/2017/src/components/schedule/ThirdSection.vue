@@ -84,7 +84,7 @@ https://github.com/importre/ready-for-production"></session-item>
 * 부록: kotlin으로 포팅할 때 주의할 점"
 
             introduce="
-GDG 노예"></session-item>
+안드로이드 OS 개발자입니다. 근데 개발보다는 개발환경 개발에 관심이 더 많습니다."></session-item>
 
 
           <!---->
