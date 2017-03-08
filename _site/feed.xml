@@ -6,5 +6,14 @@
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
+      <item>
+        <title>드로이드나이츠, 어떻게, 왜 시작하게 되었나 ?</title>
+        <description>&lt;p&gt;안녕하세요.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 07 Mar 2017 21:32:18 +0900</pubDate>
+        <link>http://localhost:4000/blog/2017/03/07/first-start/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2017/03/07/first-start/</guid>
+      </item>
+    
   </channel>
 </rss>
