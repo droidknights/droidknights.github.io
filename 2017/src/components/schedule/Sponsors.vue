@@ -6,18 +6,32 @@
       SPONSORS
     </div>
     <div class="container">
+      <!--<div class="contact" @click="onClickContact()">-->
+      <!--CONTACT : https://docs.google.com/forms..-->
+      <!--</div>-->
 
-      <div class="contact" @click="onClickContact()">
-        CONTACT : https://docs.google.com/forms..
+      <div class="tier">GOLD</div>
+
+      <div class="item-container google">
       </div>
-      <!--<div class="item-container realm">-->
-      <!--</div>-->
 
-      <!--<div class="item-container jpub">-->
-      <!--</div>-->
+      <div class="item-container lezhin">
+      </div>
 
-      <!--<div class="item-container google">-->
-      <!--</div>-->
+      <br><br><br><br>
+      <div class="tier">SIVER</div>
+
+      <div class="item-container siver realm">
+      </div>
+
+      <div class="item-container siver smartstudy">
+      </div>
+
+      <br><br><br><br>
+      <div class="tier">BOOK</div>
+
+      <div class="item-container siver jpub">
+      </div>
 
     </div>
   </div>
@@ -70,6 +84,7 @@
     margin-right: auto;
     position: relative;
     display: table;
+    text-align: center;
   }
 
   .contact {
@@ -79,7 +94,21 @@
     border-radius: 2px;
     text-align: center;
     cursor: pointer;
-    word-break:break-all;
+    word-break: break-all;
+  }
+
+  .tier {
+    color: white;
+    font-size: 20px;
+    background-color: #76ff03;
+    width: 110px;
+    padding: 5px 0px 5px 0px;
+    margin: 0 auto 20px auto;
+    font-family: 'Spoqa Han Sans', 'Montserrat', 'Sans-serif';
+    color: black;
+    border-radius: 2px;
+    text-align: center;
+    word-break: break-all;
   }
 
   .item-container {
@@ -90,6 +119,11 @@
     background-repeat: no-repeat;
   }
 
+  .siver {
+    width: 228px;
+    height: 150px;
+  }
+
   .realm {
     background-image: url(../../assets/image/spon_realm.png);
   }
@@ -98,15 +132,31 @@
     background-image: url(../../assets/image/spon_jpub.png);
   }
 
+  .smartstudy {
+    background-image: url(../../assets/image/spon_smartstudy.png);
+  }
+
   .google {
     background-image: url(../../assets/image/spon_google.png);
+  }
+
+  .lezhin {
+    background-image: url(../../assets/image/spon_lezhin.png);
   }
 
   @media (max-width: 1100px) {
     .item-container {
       display: block;
       width: 95vw;
-      height: 35vh;
+      height: 26vh;
+      background-position: center;
+    }
+
+    .siver {
+      display: inline-block;
+
+      width: 47vw;
+      height: 19vh;
       background-position: center;
     }
   }

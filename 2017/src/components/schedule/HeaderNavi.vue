@@ -5,6 +5,11 @@
       </div>
 
       <div class="section" @click="onClickMenu(0)">
+        <span class="go-facebook" @click="goFacebook" target="_blank">
+          <i class="fa fa-facebook-square" aria-hidden="true"></i>
+      </span>
+      </div>
+      <div class="section" @click="onClickMenu(0)">
         INTRODUCE
       </div>
       <div class="section" @click="onClickMenu(1)">
@@ -72,6 +77,9 @@
       },
       onClickRegister: function () {
         window.open("http://onoffmix.com/event/92727", '_blank');
+      },
+      goFacebook () {
+        window.open("https://www.facebook.com/droidknights/", '_blank');
       }
     }
   }
@@ -144,7 +152,7 @@
   }
 
   .logo {
-    width: 25%;
+    width: 21%;
     height: 51px;
     color: #000;
     margin-top: 12px;
@@ -153,6 +161,13 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-image: url(../../assets/image/dk_main_logo.svg);
+  }
+
+  .go-facebook {
+    cursor: pointer;
+    color: #4862A3;
+    font-size: 23px;
+    vertical-align: middle;
   }
 
   .section {
