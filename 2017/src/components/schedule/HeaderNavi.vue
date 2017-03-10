@@ -4,27 +4,28 @@
       <div class="logo">
       </div>
 
-      <div class="section" @click="onClickMenu(0)">
+      <div class="menus">
+        <div class="section" @click="onClickMenu(0)">
         <span class="go-facebook" @click="goFacebook" target="_blank">
           <i class="fa fa-facebook-square" aria-hidden="true"></i>
       </span>
+        </div>
+        <div class="section" @click="onClickMenu(0)">
+          INTRODUCE
+        </div>
+        <div class="section" @click="onClickMenu(1)">
+          SESSION
+        </div>
+        <div class="section" @click="onClickMenu(2)">
+          PLACE
+        </div>
+        <div class="section" @click="onClickMenu(3)">
+          SPONSOR
+        </div>
+        <div class="section border" @click="onClickRegister()">
+          REGISTER
+        </div>
       </div>
-      <div class="section" @click="onClickMenu(0)">
-        INTRODUCE
-      </div>
-      <div class="section" @click="onClickMenu(1)">
-        SESSION
-      </div>
-      <div class="section" @click="onClickMenu(2)">
-        PLACE
-      </div>
-      <div class="section" @click="onClickMenu(3)">
-        SPONSOR
-      </div>
-      <div class="section border" @click="onClickRegister()">
-        REGISTER
-      </div>
-
 
     </div>
   </div>
@@ -156,11 +157,16 @@
     height: 51px;
     color: #000;
     margin-top: 12px;
-    margin-right: 250px;
     display: inline-block;
     background-size: contain;
     background-repeat: no-repeat;
     background-image: url(../../assets/image/dk_main_logo.svg);
+  }
+
+  .menus{
+    text-align: right;
+    display: inline-block;
+    width: 78%;
   }
 
   .go-facebook {
