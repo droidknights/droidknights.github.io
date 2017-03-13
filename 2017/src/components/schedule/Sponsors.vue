@@ -19,7 +19,7 @@
       </div>
 
       <br><br><br><br>
-      <div class="tier">SIVER</div>
+      <div class="tier">SILVER</div>
 
       <div class="item-container siver realm">
       </div>
