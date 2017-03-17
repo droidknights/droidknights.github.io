@@ -28,7 +28,7 @@
       </div>
 
       <br><br><br><br>
-      <div class="tier">BOOK</div>
+      <div class="tier">MEDIA</div>
 
       <div class="item-container siver jpub">
       </div>
