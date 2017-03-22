@@ -33,6 +33,9 @@
       <div class="item-container siver jpub">
       </div>
 
+      <div class="item-container siver hanbit">
+      </div>
+
     </div>
   </div>
 </template>
@@ -142,6 +145,10 @@
 
   .lezhin {
     background-image: url(../../assets/image/spon_lezhin.png);
+  }
+
+  .hanbit {
+    background-image: url(../../assets/image/spon_hanbit.png);
   }
 
   @media (max-width: 1100px) {
