@@ -30,6 +30,9 @@
       <br><br><br><br>
       <div class="tier">MEDIA</div>
 
+      <div class="item-container siver ebrain">
+      </div>
+
       <div class="item-container siver jpub">
       </div>
 
@@ -149,6 +152,10 @@
 
   .hanbit {
     background-image: url(../../assets/image/spon_hanbit.png);
+  }
+
+  .ebrain {
+    background-image: url(../../assets/image/spon_ebrain.png);
   }
 
   @media (max-width: 1100px) {
