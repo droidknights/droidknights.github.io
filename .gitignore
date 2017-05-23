@@ -1,5 +1,6 @@
 .DS_Store
 _site/2017/node_modules/
+node_modules/
 npm-debug.log
 selenium-debug.log
 *.iml
