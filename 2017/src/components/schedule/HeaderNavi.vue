@@ -23,7 +23,7 @@
           SPONSOR
         </div>
         <div class="section border" @click="onClickRegister()">
-          REGISTER
+          THE END
         </div>
       </div>
 
@@ -77,7 +77,8 @@
         }
       },
       onClickRegister: function () {
-        window.open("http://onoffmix.com/event/92727", '_blank');
+//        window.open("http://onoffmix.com/event/92727", '_blank');
+        window.open("https://www.facebook.com/droidknights/", '_blank');
       },
       goFacebook () {
         window.open("https://www.facebook.com/droidknights/", '_blank');
@@ -163,7 +164,7 @@
     background-image: url(../../assets/image/dk_main_logo.svg);
   }
 
-  .menus{
+  .menus {
     text-align: right;
     display: inline-block;
     width: 78%;

@@ -23,7 +23,7 @@
             참가비 : 3만원 (학생 1.5만원)
           </div>
           <div class="text-04" @click="onClickRegister()">
-            참가 신청하기
+            접수 종료 되었습니다
           </div>
 
         </div>
@@ -44,7 +44,8 @@
     },
     methods: {
       onClickRegister: function () {
-        window.open("http://onoffmix.com/event/92727", '_blank');
+        window.open("https://www.facebook.com/droidknights/", '_blank');
+//        window.open("http://onoffmix.com/event/92727", '_blank');
       }
     }
   }

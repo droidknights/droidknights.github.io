@@ -3,7 +3,10 @@
     <div class="border" :class="{'not-border': isLunch || isOpening, 'more-detail-border': isMoreDetail}">
 
       <div class="time">{{time}}</div>
-      <div class="title">{{title}}</div>
+
+      <a class="title link" v-if="!(isLunch || isOpening)" @click="onClickTitle()">{{title}}</a>
+      <div class="title" v-if="isLunch || isOpening">{{title}}</div>
+
       <div class="presenter" v-if="!isLunch && !isOpening">{{presenter}}</div>
 
     </div>
@@ -76,6 +79,9 @@
       },
       isOpening: {
         default: false
+      },
+      link: {
+        type: String
       }
     },
     created() {
@@ -88,6 +94,9 @@
     methods: {
       onClickDownSession: function () {
         this.isMoreDetail = !this.isMoreDetail
+      },
+      onClickTitle: function () {
+        window.open(this.link, '_blank');
       }
     }
   }
@@ -138,6 +147,10 @@
     width: 652px;
     font-size: 18px;
     font-family: 'Spoqa Han Sans', 'Montserrat', 'Sans-serif';
+  }
+
+  .link {
+    cursor: pointer;
   }
 
   .presenter {

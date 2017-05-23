@@ -7,6 +7,7 @@
 
         <div class="info-title">
           SESSION
+          <div class="info-sub-title">(발표영상 보시려면 타이틀 클릭)</div>
         </div>
         <div class="about-container">
           <session-item
@@ -33,6 +34,7 @@
           <session-item
             time="10:10 ~ 10:50"
             title="Compose everything with rx & kotlin"
+            link="https://news.realm.io/kr/news/compose-everything-rx-kotlin/"
             presenter="허재위"
             profileImage="https://droidknights.github.io/2017/src/assets/image/profile_hjw.jpg"
             level="상"
@@ -55,6 +57,7 @@ https://github.com/importre/ready-for-production"></session-item>
           <session-item
             time="11:00 ~ 11:40"
             title="Some OK Practices in Android Development"
+            link="https://news.realm.io/kr/news/clean-architecture-in-android/"
             presenter="황성현"
             profileImage="https://droidknights.github.io/2017/src/assets/image/profile_hsh.png"
             level="상"
@@ -72,6 +75,7 @@ https://github.com/importre/ready-for-production"></session-item>
           <session-item
             time="11:50 ~ 12:30"
             title="안드로이드 스튜디오 플러그인 만들어보기"
+            link="https://news.realm.io/kr/news/android-studio-plugin-development/"
             presenter="차영호"
 
             detail="
@@ -102,6 +106,7 @@ https://github.com/importre/ready-for-production"></session-item>
           <session-item
             time="13:45 ~ 14:25"
             title="Firebase를 실제 모바일 백엔드로 사용 했을때 생기는 일들"
+            link="https://news.realm.io/kr/news/firebase-as-a-real-mobile-backend/"
             presenter="장도훈"
             profileImage=""
             level="중상"
@@ -119,6 +124,7 @@ Firebase를 메인 백엔드 솔루션으로 사용할때 겪었던 문제와 �
           <session-item
             time="14:35 ~ 15:00"
             title="Firebase Remote Config로 배포없이 앱 운영하기"
+            link="https://news.realm.io/kr/news/firebase-remote-config/"
             presenter="이승민"
             profileImage="https://droidknights.github.io/2017/src/assets/image/profile_lsm.jpg"
             level="하"
@@ -150,6 +156,7 @@ Firebase의 Remote Config를 사용하면 배포없이 운영 이슈를 바로 �
           <session-item
             time="15:25 ~ 16:05"
             title="빠르고 지속적으로 전달하기: Continuous Delivery for Android"
+            link="https://news.realm.io/kr/news/continuous-delivery-for-android/"
             presenter="남상균"
             profileImage="https://droidknights.github.io/2017/src/assets/image/profile_ksg.jpg"
             level="중상"
@@ -167,6 +174,7 @@ Firebase의 Remote Config를 사용하면 배포없이 운영 이슈를 바로 �
           <session-item
             time="16:15 ~ 16:40"
             title="UiAutomator와 AWS Device Farm 을 활용한 UI 테스팅 자동화"
+            link="https://news.realm.io/kr/news/android-ui-test-automation/"
             presenter="유윤재"
             profileImage="https://droidknights.github.io/2017/src/assets/image/profile_yyj.jpg"
             level="상"
@@ -186,6 +194,7 @@ UiAutomator와 AWS Device Farm을 활용하면 클라우드에서 자동화된 U
           <session-item
             time="16:50 ~ 17:30"
             title="Anatomy of Realm (Realm 심층 분석)"
+            link="https://news.realm.io/kr/news/anatomy-of-realm/"
             presenter="김용욱"
             profileImage=""
             level="상"
@@ -203,6 +212,7 @@ Realm에서 안드로이드 바인드인 Realm Java에 참여하며 문서 지�
           <session-item
             time="17:40 ~ 18:05"
             title="KeyFrame과 Lottie로 인터렉티브한 애니메이션을 구현해보기"
+            link="https://news.realm.io/kr/news/lottie-for-android-interactive-animation/"
             presenter="이영찬"
             profileImage="https://droidknights.github.io/2017/src/assets/image/profile_lyc.png"
             level="중하"
@@ -294,6 +304,15 @@ GDG에서 활동 중인 이영찬이라고 합니다. 안드로이드 개발 경
     font-weight: bold;
     margin-bottom: 20px;
     color: #000;
+    font-family: 'Spoqa Han Sans', 'Sans-serif';
+  }
+
+  .info-sub-title {
+    font-size: 14px;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    color: #222;
     font-family: 'Spoqa Han Sans', 'Sans-serif';
   }
 
