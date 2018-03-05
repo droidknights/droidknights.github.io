@@ -2,12 +2,12 @@
   <header class="container">
     <div class="title">
       <p class="mini">This is ..</p>
-      DROID KNIGHTS 2017 . IN SEOUL
+      DROID KNIGHTS 2018 . IN SEOUL
 
       <div class="cfp" @click="goCfp">
-        스피커를 모집합니다.<br>
-        모집기간 : 1/18 ~ 2/5<br>
-        <u>지원하러 가기</u>
+        <!--스피커를 모집합니다.<br>-->
+        <!--모집기간 : 2/13 ~ 3/4<br>-->
+        <!--<u>지원하러 가기</u>-->
       </div>
     </div>
 
@@ -15,15 +15,15 @@
       <div class="text-vertical-center">
         <h1>Coming Soon ..<span>{{cursor}}</span></h1>
         <div class="sub-title-des">수준있는 안드로이드 개발자를 위한 독립 컨퍼런스가 열립니다.</div><br>
-        행사 날짜 : 3 / 25 (토)<br>
-        장소 : 전문건설회관 (보라매공원)<br>
+        행사 날짜 : 4 / 22 (일)<br>
+        장소 : 코엑스 (삼성역)<br>
         <br>
         <span class="go-facebook" @click="goFacebook" target="_blank">
           <i class="fa fa-facebook-square" aria-hidden="true"></i></span>
         <br>
         <br>
         <br>
-        <remain-time dueDate="03 25 2017"></remain-time>
+        <remain-time dueDate="04 22 2018"></remain-time>
       </div>
     </div>
 
