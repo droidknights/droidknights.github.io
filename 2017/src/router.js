@@ -11,7 +11,7 @@ const router = new VueRouter({
   routes: [
     {
       path: '/',
-      component: Home
+      component: Schedule
     },
     {
       path: '/schedule',
