@@ -14,7 +14,7 @@
    all Large Devices only except small screen
    ------------------------------- */
 @media screen and (min-width: 768px) {
-	
+
 }
 
 
@@ -145,6 +145,11 @@
    ------------------------------- */
 
 @media screen and (max-width: 480px) {
+	.hero-area {
+  		height: 600px;
+	}
+	
+
 	#banner .block {
 		padding: 30px 0;
 	}
@@ -176,6 +181,10 @@
    ------------------------------- */
 
 @media screen and (max-width: 479px) {
+	.hero-area {
+  		height: 600px;
+	}
+
 	#banner {
 		padding:50px 0;
 		.block {

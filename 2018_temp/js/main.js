@@ -27,17 +27,6 @@ $(document).ready(function(){
         $(".navigation").removeClass("animated");
     }});
 
-    $("#countdown_dashboard").countDown({
-        targetDate: {
-            'day':      22,
-            'month':    4,
-            'year':     2018,
-            'hour':     09,
-            'min':      00,
-            'sec':      00,
-        },
-        omitWeeks: true
-    });
 
     $(".about-slider").owlCarousel(
         {
@@ -134,9 +123,9 @@ $(function () {
         });
 
         var contentString = '<div class="info-window">' +
-                '<h3>Info Window Content</h3>' +
+                '<h3>드로이드 나이츠 2018</h3>' +
                 '<div class="info-content">' +
-                '<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>' +
+                '<p>코엑스 그랜드 컨퍼런스룸 401호,402호,403호</p>' +
                 '</div>' +
                 '</div>';
 
