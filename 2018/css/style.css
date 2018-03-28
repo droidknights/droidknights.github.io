@@ -383,8 +383,9 @@ background-position:center;
       font-size: 22px; }
 
 .navigation.animated {
-  background-color: #fff;
-  box-shadow: 0 2px 7px 0px rgba(142, 142, 142, 0.15); }
+  background-color: transparent;
+  /*box-shadow: 0 2px 7px 0px rgba(142, 142, 142, 0.15); */
+}
   .navigation.animated .menu a {
     color: #666; }
 
@@ -506,12 +507,21 @@ font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif'; }
   /*font-family: 'Nanum Gothic', serif; */
 font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif'; }
 
+
+.schedule h3{
+  font-size: 20px;
+}
+
 .textgreen {
   color : #3dea11;
 }
 
 .textlightgreen {
   color : #24f9b6;
+}
+
+.textwhite {
+  color : #fff;
 }
 
 .line {
@@ -526,6 +536,9 @@ font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif'; }
   font-weight: bold;
 }
 
+.profileContainer{
+    margin-bottom: 20px;  
+}
 
 
 
@@ -714,13 +727,13 @@ font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif'; }
 
 footer {
   text-align: center;
-  background: #272727;
+  background: #0f1723;
   padding: 27px 0px; }
   footer p {
     font-weight: 300;
     font-size: 12px;
     color: #dfdfdf;
-    letter-spacing: 3px; }
+     }
     footer p a {
       color: #fff; }
       footer p a:hover {
