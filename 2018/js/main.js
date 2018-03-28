@@ -4,7 +4,8 @@ $(window).on("load", function() {
 
 $(document).ready(function(){
 
-
+     fbq('track', 'InitiateCheckout');
+     
      new WOW().init();
 
 
