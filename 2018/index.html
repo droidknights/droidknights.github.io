@@ -44,7 +44,7 @@
         <a class="navbar-brand logo" href="https://droidknights.github.io/2018/">
           <img src="images/DK2018_Logo.png" alt=""> 
         </a>
-        <!-- <div class="collapse navbar-collapse bigjohn" id="navbarCollapse">
+        <div class="collapse navbar-collapse bigjohn" id="navbarCollapse">
             <ul class="navbar-nav ml-auto" id="top-nav">
               <li class="nav-item active">
                 <a class="nav-link" href="#">HOME</a>
@@ -65,7 +65,7 @@
                 <a class="nav-link" href="https://droidknights.github.io/2017/" target="_blank">2017</a>
               </li>
             </ul>
-        </div> -->
+        </div>
       </nav>
 
       <section class="hero-area bg-1">
@@ -119,13 +119,18 @@
  <!-- 
         About start
         ==================== -->
-        <section  class="section about bg-gray" id="about">
+        <section  class="section about bg-gray" id="ABOUT">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-7 col-sm-12 wow fadeInLeft">
+                   <div class="col-md-5 col-sm-12 wow fadeInLeft" data-wow-delay="0.3s">
+                        <div class="about-slider">
+                            <img src="images/droidknights.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12 wow fadeInLeft align-self-center">
                         <div class="content">
                             <div class="sub-heading">
-                                <h3>드로이드 나이츠 2018 행사 간략 개요</h3>
+                                <h3>드로이드 나이츠 2018</h3>
                             </div>
                             <p>오직 안드로이드 개발자들을 위한 수준있는 독립 컨퍼런스</p>
                             <p>심화된 안드로이드 기술에 대한 세션으로 개발자 여러분들의</p>
@@ -133,13 +138,7 @@
                             <p>많이 오셔서 새로운 개발의 장을 즐겨 주세요.</p>
                         </div>
                     </div>
-                    <div class="col-md-5 col-sm-12 wow fadeInLeft" data-wow-delay="0.3s">
-                        <div class="about-slider">
-                            <img src="images/droidknights.png" alt="">
-                            <img src="images/droidknights.png" alt="">
-                            <img src="images/droidknights.png" alt="">
-                        </div>
-                    </div>
+                   
                 </div>
             </div>
         </section><!-- #about close -->
@@ -147,17 +146,138 @@
         About start
         ==================== -->
 
+        <section class="section schedule bg-darkblue" id="SCHEDULE">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="heading-white wow fadeInUp">
+                      <div class="content">
+                        <h2 class="bigjohn">SCHEDULE</h2>
+                        <p>드로이드 나이츠 2018은 2트랙으로 진행됩니다.</p>
+                        <p>(추후 시간 변동이 있을 수 있습니다.)</p>
+                      </div>
+                    </div>
+                </div>
+
+
+                <div class="row justify-content-center">
+                    <div class="col-md-6 col-sm-12">
+                        <div class="content">
+                            <h2 class="bigjohn text-center textgreen">TRACK 1</h2>
+                            <div class="line"></div>
+                        </div>
+                        <table class="table table-dark" style="background-color: transparent;">
+                          <tbody>
+                            <tr>
+                              <th scope="row" class="textgreen textbold" style="width: 100px">10:15-11:00</th>
+                              <td class="textbold">No More Fragment, No More Activity</td>
+                              <td class="textgreen "style="width: 70px">정승욱</td>
+                            </tr>
+                            <tr>
+                              <th scope="row" class="textgreen textbold">11:15-12:00</th>
+                              <td class="textbold">Next Step Architecture</td>
+                              <td class="textgreen ">남상균, 정현지</td>
+                            </tr>
+                            <tr>
+                              <th scope="row" class="textgreen textbold">13:15-13:40</th>
+                              <td class="textbold">Paging Library, 그것이 쓰고싶다</td>
+                              <td class="textgreen ">한정일</td>
+                            </tr>
+                            <tr>
+                              <th scope="row" class="textgreen textbold">13:55-14:40</th>
+                              <td class="textbold">지금은 ConstraintLayout 시대</td>
+                              <td class="textgreen">안세원</td>
+                            </tr>
+                            <tr>
+                              <th scope="row" class="textgreen textbold">14:55-15:20</th>
+                              <td class="textbold">Firebase Dynamic Link로 사용자 유입시키기</td>
+                              <td class="textgreen ">박상권</td>
+                            </tr>
+                            <tr>
+                              <th scope="row" class="textgreen textbold">15:35-16:20</th>
+                              <td class="textbold">RxJava 적용 팁과 트러블 슈팅</td>
+                              <td class="textgreen ">노재춘</td>
+                            </tr>
+                            <tr>
+                              <th scope="row" class="textgreen textbold">16:35-17:00</th>
+                              <td class="textbold">Android Test</td>
+                              <td class="textgreen ">정경호</td>
+                            </tr>
+                            <tr>
+                              <th scope="row" class="textgreen textbold">17:15-18:00</th>
+                              <td class="textbold">Practical FP in Kotlin</td>
+                              <td class="textgreen ">황성현</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="content">
+                            <h2 class="bigjohn text-center textlightgreen">TRACK 2</h2>
+                            <div class="line-copy-8"></div>
+                        </div>
+                        <table class="table table-dark" style="background-color: transparent;">
+                          <tbody>
+                            <tr>
+                              <th scope="row" class="textlightgreen textbold" style="width: 100px">10:15-11:00</th>
+                              <td class="textbold">Kotlin Sealed Class를 이용한 뷰상태 관리</td>
+                              <td class="textlightgreen "style="width: 70px">우명인</td>
+                            </tr>
+                            <tr>
+                              <th scope="row" class="textlightgreen textbold">11:15-12:00</th>
+                              <td class="textbold">What is the difference between List, Sequence, Observable?</td>
+                              <td class="textlightgreen ">김범준</td>
+                            </tr>
+                            <tr>
+                              <th scope="row" class="textlightgreen textbold">13:15-13:40</th>
+                              <td class="textbold">Best Practice on Android Instant Apps</td>
+                              <td class="textlightgreen ">김종식</td>
+                            </tr>
+                            <tr>
+                              <th scope="row" class="textlightgreen textbold">13:55-14:40</th>
+                              <td class="textbold">Kotlin 코루틴은 어떻게 동작하는가?</td>
+                              <td class="textlightgreen">도창욱</td>
+                            </tr>
+                            <tr>
+                              <th scope="row" class="textlightgreen textbold">14:55-15:20</th>
+                              <td class="textbold">Google Mobile Vision과 OpenCV를 활용하여 card.io를 확장한 범용 카드번호인식 개발</td>
+                              <td class="textlightgreen ">장혁재</td>
+                            </tr>
+                            <tr>
+                              <th scope="row" class="textlightgreen textbold">15:35-16:20</th>
+                              <td class="textbold">Travis-ci 를 이용한 CI/CD 와 도커를 이용한 Jenkins for Android 구성하기</td>
+                              <td class="textlightgreen ">장인수</td>
+                            </tr>
+                            <tr>
+                              <th scope="row" class="textlightgreen textbold">16:35-17:00</th>
+                              <td class="textbold">Android Studio에서 Vim 사용과 IdeaVim 커스터마이징 (code refactoring, adb, git)</td>
+                              <td class="textlightgreen ">김용준</td>
+                            </tr>
+                            <tr>
+                              <th scope="row" class="textlightgreen textbold">17:15-18:00</th>
+                              <td class="textbold">내가 안드로이드 개발자가 되었을 때 아무도 알려주지 않은 것들</td>
+                              <td class="textlightgreen ">강사룡</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        
+                        </p>
+                    </div>
+                </div>      <!-- End row -->
+            </div>      <!-- End container -->
+        </section><!-- End section -->
+        
+
        
         <!-- 
         Contact start
         ==================== -->
-        <section id="contact" class="section contact">
+        <section id="VENUE" class="section contact bg-gray">
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-12">
                         <div class="block">
-                            <div class="heading wow fadeInUp">
-                                <h3 class="bigjohn">Location</h3>
+                            <div class="heading-white wow fadeInUp">
+                                <h2 class="bigjohn">Location</h2>
                                 <p>코엑스 그랜드 컨퍼런스룸 401호,402호,403호</p>
                             </div>
                         </div>

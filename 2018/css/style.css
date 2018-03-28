@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url(https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
 /*--
     Common Css
 --*/
@@ -7,7 +7,8 @@ body {
   font-weight: 300;
   line-height: 25px;
   color: #3b4045;
-  font-family: "Nanum Gothic", sans-serif;
+/*  font-family: "Nanum Gothic", sans-serif;*/
+font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif'; 
   /*font: 14px/22px 'Source Sans Pro', sans-serif, Helvetica, Arial, sans-serif;*/
   -webkit-font-smoothing: antialiased; }
 
@@ -79,6 +80,11 @@ a:active {
   text-align: center;
   color: #000;
   padding-bottom: 70px; }
+
+  .heading-white {
+  text-align: center;
+  color: #fff;
+  padding-bottom: 70px; }
   .heading h2 {
     color: #3c3c3c;
     padding-bottom: 15px;
@@ -87,7 +93,8 @@ a:active {
     font-size: 40px;
     line-height: 40px; }
   .heading p {
-    font-family: 'Nanum Gothic', serif;
+    /*font-family: 'Nanum Gothic', serif;*/
+    font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif'; 
     font-size: 15px;
     line-height: 24px;
     font-weight: 300; }
@@ -298,15 +305,16 @@ background-position:center;
     .hero-area start
 --*/
 .bg-1 {
-  /*background-image: url("../images/header-bg.png");*/
-  /*background-position: 50% 20%;*/
-  /*background-size: 80%  ;*/
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-color:#0f1723;}
 
 .bg-gray {
-  background: #f8f8f8; }
+  background: #1c2a3f; }
+
+.bg-darkblue {
+  background: #0f1723; }
+
 
 .hero-area {
   height: 820px;
@@ -460,19 +468,65 @@ margin: 0 auto;
   font-weight: 800;
   font-stretch: semi-condensed;
   line-height: 36px;
-  color: #000;
+  color: #fff;
+  letter-spacing: -0.4px;
   margin-bottom: 20px;
-  font-family: 'Nanum Gothic', serif; }
+  /*font-family: 'Nanum Gothic', serif; */
+font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif'; }
 
 .about .content p {
-  font-size: 14px;
+  font-size: 13px;
   line-height: 20px;
-  color: #000;
-  font-family: 'Nanum Gothic', serif; }
+  color: #fff;
+  /*font-family: 'Nanum Gothic', serif; */
+font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif'; }
 
 .about .about-slider img {
   width: 100%;
   height: auto; }
+
+  /*--
+    schedule start
+--*/
+.schedule .content h3 {
+  font-size: 26px;
+  font-weight: 800;
+  font-stretch: semi-condensed;
+  line-height: 36px;
+  color: #000;
+  letter-spacing: -0.4px;
+  margin-bottom: 20px;
+  /*font-family: 'Nanum Gothic', serif; */
+font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif'; }
+
+.schedule .content p {
+  font-size: 13px;
+  line-height: 20px;
+  color: #fff;
+  /*font-family: 'Nanum Gothic', serif; */
+font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif'; }
+
+.textgreen {
+  color : #3dea11;
+}
+
+.textlightgreen {
+  color : #24f9b6;
+}
+
+.line {
+  border: solid 1px #45fc17;
+}
+
+.line-copy-8 {
+  border: solid 1px #24f9b6;
+}
+
+.textbold{
+  font-weight: bold;
+}
+
+
 
 
 /*--
@@ -486,13 +540,18 @@ margin: 0 auto;
   line-height: 36px;
   color: #000;
   margin-bottom: 20px;
-  font-family: 'Nanum Gothic', serif; }
+  /*font-family: 'Nanum Gothic', serif; */
+  font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif'; 
+}
 
   .contact p {
   font-size: 14px;
   line-height: 20px;
-  color: #000;
-  font-family: 'Nanum Gothic', serif; }
+  color: #fff;
+  /*font-family: 'Nanum Gothic', serif; */
+  font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif'; 
+}
+
 
 
   /*=================================================================
