@@ -540,6 +540,11 @@ font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif'; }
     margin-bottom: 20px;  
 }
 
+.ic-arrow-green {
+  width: 13px;
+  height: 9px;
+  object-fit: contain;
+}
 
 
 /*--
