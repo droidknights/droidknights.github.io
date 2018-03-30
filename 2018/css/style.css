@@ -4,7 +4,7 @@
 --*/
 body {
   font-size: 14px;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 25px;
   color: #3b4045;
 /*  font-family: "Nanum Gothic", sans-serif;*/
@@ -18,7 +18,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 300; }
+  font-weight: 400; }
 
 h1 {
   font-size: 44px;
@@ -81,38 +81,41 @@ a:active {
   color: #000;
   padding-bottom: 70px; }
 
-  .heading-white {
+.heading-white {
   text-align: center;
   color: #fff;
-  padding-bottom: 70px; }
-  .heading h2 {
+  padding-bottom: 60px; }
+  
+.heading h2 {
     color: #3c3c3c;
     padding-bottom: 15px;
     text-transform: capitalize;
     font-weight: 600;
     font-size: 40px;
-    line-height: 40px; }
-  .heading p {
+    line-height: 40px; 
+  }
+
+.heading p {
     /*font-family: 'Nanum Gothic', serif;*/
     font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif'; 
     font-size: 15px;
     line-height: 24px;
-    font-weight: 300; }
+    font-weight: 300;
+  }
 
 .btn {
-  border-radius: 0; }
+  border-radius: 0; 
+}
 
 .btn-home {
- background-image:url('../images/Ticket_btn.png');
-background-repeat:no-repeat;
-max-width: 40%
-background-size:contain;
-background-position:center;
-
+  background-image:url('../images/Ticket_btn.png');
+  background-repeat:no-repeat;
+  max-width: 40%
+  background-size:contain;
+  background-position:center;
 }
 
 .test {
-  
   padding: 10px 40px;
   margin-top: 30px;
   margin-bottom: 30px; 
@@ -394,7 +397,8 @@ background-position:center;
   font-size: 16px;
   font-weight: bold; }
   .menu li a:hover, .menu li a:focus {
-    background: none; }
+    background: none; 
+    color:#3DEA11;}
 
 /*--
     service star
@@ -556,6 +560,10 @@ font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif'; }
 
 .line {
   border: solid 1px #45fc17;
+}
+
+.line2 {
+  border: solid 1px #24f9b6;
 }
 
 .line-copy-8 {
@@ -774,3 +782,11 @@ footer {
       footer p a:hover {
         color: #fff;
         text-decoration: none; }
+
+.table {
+  margin-bottom: 0rem !important;
+}
+
+.map {
+  margin-top: 30px;
+}
