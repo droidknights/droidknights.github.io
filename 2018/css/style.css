@@ -12,6 +12,10 @@ font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
   /*font: 14px/22px 'Source Sans Pro', sans-serif, Helvetica, Arial, sans-serif;*/
   -webkit-font-smoothing: antialiased; }
 
+body, h1, h2, h3, h4, h5, h6, p, ul, a, li {
+  word-break: keep-all;
+}
+
 h1,
 h2,
 h3,
@@ -27,7 +31,12 @@ h1 {
 
 h2 {
   font-size: 30px;
-  line-height: 35px; }
+  line-height: 35px;
+  }
+
+.track-title {
+  margin-top: 20px;
+}
 
 h3 {
   font-size: 23px;
@@ -495,7 +504,7 @@ color: #666; }
     About start
 --*/
 .about .content h3 {
-  font-size: 26px;
+  font-size: 32px;
   font-weight: 800;
   font-stretch: semi-condensed;
   line-height: 36px;
@@ -506,8 +515,8 @@ color: #666; }
 font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif'; }
 
 .about .content p {
-  font-size: 13px;
-  line-height: 20px;
+  font-size: 14px;
+  line-height: 22px;
   color: #fff;
   /*font-family: 'Nanum Gothic', serif; */
 font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif'; }
@@ -531,7 +540,7 @@ font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif'; }
 font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif'; }
 
 .schedule .content p {
-  font-size: 13px;
+  font-size: 14px;
   line-height: 20px;
   color: #fff;
   /*font-family: 'Nanum Gothic', serif; */
@@ -575,11 +584,11 @@ font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif'; }
 }
 
 .profileContainer{
-    margin-bottom: 20px;  
+    margin: 20px;
 }
 
 .ic-arrow-green {
-  width: 13px;
+  width: 14px;
   height: 9px;
   object-fit: contain;
 }
@@ -789,4 +798,12 @@ footer {
 
 .map {
   margin-top: 30px;
+}
+
+.table td, .table th {
+  padding: -0.5rem;
+}
+
+a:hover {
+  color:#3dea11;
 }
