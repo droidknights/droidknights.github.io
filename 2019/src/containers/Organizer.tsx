@@ -102,7 +102,7 @@ export default class Organizer extends React.Component<OrganizerProps, any> {
             <img src={require("../assets/images/person/이대명.png")} alt="" />
             <div>
               <span>이대명</span>
-              <a href="https://www.instagram.com/moka_q/">
+              <a href="https://moka.land/about/">
                 <img src={require("../assets/images/link.png")} alt="" />
               </a>
             </div>
