@@ -110,11 +110,10 @@ class App extends React.Component {
         <div className={styles.soon}>COMMING SOON</div>
         <div className={styles.detail}>
           <div>
-            <b>장소</b>: 코엑스 E홀 / 서울특별시 강남구 영동대로 513 (삼성동,
-            코엑스)
+            <b>장소</b>: 코엑스 컨퍼런스 룸 (북) / 아쌤볼룸 2층
           </div>
           <div>
-            <b>날짜</b>: 2020년 00월 00일
+            <b>날짜</b>: 2020년 4월 6일
           </div>
         </div>
       </>
