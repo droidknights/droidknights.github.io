@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/2020/build/static/css/main.b839dbee.chunk.css",
+    "main.js": "/2020/build/static/js/main.d41d7c65.chunk.js",
+    "main.js.map": "/2020/build/static/js/main.d41d7c65.chunk.js.map",
+    "runtime-main.js": "/2020/build/static/js/runtime-main.ca0e5ff3.js",
+    "runtime-main.js.map": "/2020/build/static/js/runtime-main.ca0e5ff3.js.map",
+    "static/js/2.c8efef22.chunk.js": "/2020/build/static/js/2.c8efef22.chunk.js",
+    "static/js/2.c8efef22.chunk.js.map": "/2020/build/static/js/2.c8efef22.chunk.js.map",
+    "index.html": "/2020/build/index.html",
+    "precache-manifest.3670d99398e4038cd7e1e6bd25ca34cd.js": "/2020/build/precache-manifest.3670d99398e4038cd7e1e6bd25ca34cd.js",
+    "service-worker.js": "/2020/build/service-worker.js",
+    "static/css/main.b839dbee.chunk.css.map": "/2020/build/static/css/main.b839dbee.chunk.css.map",
+    "static/media/Stackcaps.ttf": "/2020/build/static/media/Stackcaps.b516978f.ttf",
+    "static/media/dk2020_logo.svg": "/2020/build/static/media/dk2020_logo.fde98b8f.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ca0e5ff3.js",
+    "static/js/2.c8efef22.chunk.js",
+    "static/css/main.b839dbee.chunk.css",
+    "static/js/main.d41d7c65.chunk.js"
+  ]
+}
