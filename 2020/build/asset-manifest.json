@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/2020/build/static/css/main.e9d4d025.chunk.css",
+    "main.css": "/2020/build/static/css/main.0cac4c39.chunk.css",
     "main.js": "/2020/build/static/js/main.beae67c6.chunk.js",
     "main.js.map": "/2020/build/static/js/main.beae67c6.chunk.js.map",
     "runtime-main.js": "/2020/build/static/js/runtime-main.ca0e5ff3.js",
@@ -8,16 +8,16 @@
     "static/js/2.c8efef22.chunk.js": "/2020/build/static/js/2.c8efef22.chunk.js",
     "static/js/2.c8efef22.chunk.js.map": "/2020/build/static/js/2.c8efef22.chunk.js.map",
     "index.html": "/2020/build/index.html",
-    "precache-manifest.a8b89a8bf572f5393e4f46848432f119.js": "/2020/build/precache-manifest.a8b89a8bf572f5393e4f46848432f119.js",
+    "precache-manifest.d212f03e09f5473c1b0c1df96bc189a6.js": "/2020/build/precache-manifest.d212f03e09f5473c1b0c1df96bc189a6.js",
     "service-worker.js": "/2020/build/service-worker.js",
-    "static/css/main.e9d4d025.chunk.css.map": "/2020/build/static/css/main.e9d4d025.chunk.css.map",
+    "static/css/main.0cac4c39.chunk.css.map": "/2020/build/static/css/main.0cac4c39.chunk.css.map",
     "static/media/Stackcaps.ttf": "/2020/build/static/media/Stackcaps.b516978f.ttf",
     "static/media/dk2020_logo.svg": "/2020/build/static/media/dk2020_logo.fde98b8f.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.ca0e5ff3.js",
     "static/js/2.c8efef22.chunk.js",
-    "static/css/main.e9d4d025.chunk.css",
+    "static/css/main.0cac4c39.chunk.css",
     "static/js/main.beae67c6.chunk.js"
   ]
 }
