@@ -21,23 +21,23 @@ class App extends React.Component {
         >
           <Header />
           <Switch>
-            <Route path="/" exact>
+            <Route path="/2020/" exact>
               <Index />
               <ComingSoon />
             </Route>
-            <Route path="/about" exact>
+            <Route path="/2020/about" exact>
               <About />
             </Route>
-            <Route path="/schedule" exact>
+            <Route path="/2020/schedule" exact>
               <Schedule />
             </Route>
-            <Route path="/location" exact>
+            <Route path="/2020/location" exact>
               <Location />
             </Route>
-            <Route path="/sponsor" exact>
+            <Route path="/2020/sponsor" exact>
               <Sponsor />
             </Route>
-            <Route path="/organizer" exact>
+            <Route path="/2020/organizer" exact>
               <Organizer />
             </Route>
           </Switch>
