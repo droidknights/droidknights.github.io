@@ -7,24 +7,24 @@ const Header = props => {
     <div className={styles.root}>
       <div className={styles.title}>
         <span>
-          <Link to="/">Droid knights</Link>
+          <Link to="/2020/">Droid knights</Link>
         </span>
       </div>
       <nav>
         <span>
-          <Link to="/">about</Link>
+          <Link to="/2020/">about</Link>
         </span>
         <span>
-          <Link to="/">schedule</Link>
+          <Link to="/2020/">schedule</Link>
         </span>
         <span>
-          <Link to="/">location</Link>
+          <Link to="/2020/">location</Link>
         </span>
         <span>
-          <Link to="/">sponsor</Link>
+          <Link to="/2020/">sponsor</Link>
         </span>
         <span>
-          <Link to="/">organizer</Link>
+          <Link to="/2020/">organizer</Link>
         </span>
       </nav>
     </div>
