@@ -1,0 +1,47 @@
+.root {
+  display: flex;
+
+
+  justify-content: space-between;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+
+
+  @media screen and (max-width: 425px) {
+    // phone
+    display: none;
+  }
+
+
+  @media screen and (min-width: 425px) and (max-width: 768px) {
+    // Tablet
+    font-size: 11px;
+  }
+
+  @media screen and (min-width: 769px) {
+    // Web
+    font-size: 24px;
+
+  }
+
+}
+
+.title {
+  font-family: "BigJohn";
+  color: #00deab;
+}
+
+
+nav {
+  color: #eae5e9;
+
+  &>span {
+    margin-left: 20px;
+    cursor: pointer;
+  }
+}

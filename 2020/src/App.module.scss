@@ -1,147 +1,25 @@
 @font-face {
-  font-family: 'Stackcaps';
-  font-style: normal;
-  font-weight: normal;
-  src: url(./Stackcaps.ttf);
-}
-
-@font-face {
-  font-family: 'DungGeunMo';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
+  font-family: "BigJohn";
+  src: url(fonts/BIG_JOHN.otf) format("opentype");
 }
 
 body {
   margin: 0;
-  padding: 30px;
+  padding: 37px 50px;
 
-  height: 100vh;
-  width: 100vw;
-  background-color: black;
-  overflow-x: hidden;
-}
+  background-color: #303033;
+  color: #eae5e9;
 
-.root {
-  color: white;
-}
+  font-family: 'Black Han Sans', sans-serif;
 
-.androidContainer {
-  display: flex;
-  flex-direction: column;
+  @media screen and (max-width: 425px) {
+    // phone
 
-  &>div {
-    display: flex;
-    justify-content: center;
-    line-height: 0.8;
-    font-size: 10px;
+    padding: 0;
   }
 }
 
-.soon {
-  font-family: 'DungGeunMo';
-  font-size: 60px;
-  color: white;
-  font-style: normal;
-  font-weight: normal;
-  text-align: center;
-  width: 100%;
-  margin-top: 20px;
-}
-
-.titleImg {
-  width: 30%;
-  margin: 0 auto;
-  display: block;
-  margin-bottom: 40px;
-  mask-image: radial-gradient(left, transparent 49%, white 50%);
-}
-
-.detail {
-  font-family: 'DungGeunMo';
-  font-size: 17px;
-  color: white;
-  font-style: normal;
-  font-weight: normal;
-  text-align: center;
-  width: 100%;
-  margin-top: 15px;
-}
-
-
-
-
-$starFieldWidth: 2560;
-$starFieldHeight: 2000;
-$starStartOffset: 600px;
-
-$starOneScrollDuration: 75s;
-$starTwoScrollDuration: 125s;
-$starThreeScrollDuration: 175s;
-$numStarOneStars: 1700;
-$numStarTwoStars: 700;
-$numStarThreeStars: 200;
-
-
-$width: 100%;
-
-// n is number of stars required
-@function multiple-box-shadow ($n) {
-  // First star
-  $stars: "#{random($starFieldWidth)}px #{random($starFieldHeight)}px #FFF";
-
-  @for $i from 2 through $n {
-    // Iterate through and append stars to string
-    $stars: "#{$stars} , #{random($starFieldWidth)}px #{random($starFieldHeight)}px #FFF";
-  }
-
-  // Return all generated stars
-  @return unquote($stars);
-}
-
-@mixin star-template($numStars, $starSize, $scrollSpeed) {
-  z-index: 10;
-  width: $starSize;
-  height: $starSize;
-  background: transparent;
-  box-shadow: multiple-box-shadow($numStars);
-  animation: animStar $scrollSpeed linear infinite;
-
-  &:after {
-    content: " ";
-    top: -$starStartOffset;
-    width: $starSize;
-    height: $starSize;
-    position: absolute;
-    background: transparent;
-    box-shadow: multiple-box-shadow($numStars);
-  }
-}
-
-.stars {
-  @include star-template($numStarOneStars, 1px, $starOneScrollDuration);
-}
-
-.stars2 {
-  @include star-template($numStarTwoStars, 2px, $starTwoScrollDuration);
-}
-
-.stars3 {
-  @include star-template($numStarThreeStars, 3px, $starThreeScrollDuration);
-}
-
-@keyframes animStar {
-  from {
-    transform: translateY(0px);
-  }
-
-  to {
-    transform: translateY(-#{$starFieldHeight}px);
-  }
-}
-
-.starContainer {
-  position: relative;
-  width: 100%;
-  height: 100%;
+a {
+  text-decoration: none;
+  color: inherit;
 }
