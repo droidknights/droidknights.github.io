@@ -19,6 +19,10 @@
   width: 50%;
   position: relative;
 
+  &>img:nth-child(1) {
+    width: 100%;
+  }
+
   &>img:nth-child(2) {
     position: absolute;
     width: 60%;

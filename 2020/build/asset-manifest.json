@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/2020/build/static/css/main.8b759503.chunk.css",
+    "main.css": "/2020/build/static/css/main.794ed330.chunk.css",
     "main.js": "/2020/build/static/js/main.86b30972.chunk.js",
     "main.js.map": "/2020/build/static/js/main.86b30972.chunk.js.map",
     "runtime-main.js": "/2020/build/static/js/runtime-main.ca0e5ff3.js",
@@ -8,15 +8,15 @@
     "static/js/2.7f0e077d.chunk.js": "/2020/build/static/js/2.7f0e077d.chunk.js",
     "static/js/2.7f0e077d.chunk.js.map": "/2020/build/static/js/2.7f0e077d.chunk.js.map",
     "index.html": "/2020/build/index.html",
-    "precache-manifest.62aec7e3e6224d7fff2fd8a221f2f051.js": "/2020/build/precache-manifest.62aec7e3e6224d7fff2fd8a221f2f051.js",
+    "precache-manifest.ede0e57f4393ea649efcf02456e2c600.js": "/2020/build/precache-manifest.ede0e57f4393ea649efcf02456e2c600.js",
     "service-worker.js": "/2020/build/service-worker.js",
-    "static/css/main.8b759503.chunk.css.map": "/2020/build/static/css/main.8b759503.chunk.css.map",
+    "static/css/main.794ed330.chunk.css.map": "/2020/build/static/css/main.794ed330.chunk.css.map",
     "static/media/BIG_JOHN.otf": "/2020/build/static/media/BIG_JOHN.aa3a0087.otf"
   },
   "entrypoints": [
     "static/js/runtime-main.ca0e5ff3.js",
     "static/js/2.7f0e077d.chunk.js",
-    "static/css/main.8b759503.chunk.css",
+    "static/css/main.794ed330.chunk.css",
     "static/js/main.86b30972.chunk.js"
   ]
 }
