@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "../styles/Index.module.scss";
 
+// FIXME: 아래쪽에 살짝의 마진 (About이랑 살짝 균격이 있음)
 const Index = props => {
   return (
     <div
@@ -21,7 +22,7 @@ const Index = props => {
       </div>
       <div className={styles.img}>
         <img
-          src={process.env.PUBLIC_URL + "/img/img_droid_space.png"}
+          src={process.env.PUBLIC_URL + "/img/img-droid-space.png"}
           alt=""
           srcset=""
         />

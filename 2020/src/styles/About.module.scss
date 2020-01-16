@@ -1,0 +1,31 @@
+.root {
+  position: relative;
+  margin: 0 -50px;
+  width: calc(100% + 100px);
+
+  &>img {
+    width: 100%;
+  }
+
+  &>div.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    background-color: #00000055;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &>div {
+      text-align: center;
+      font-size: 24px;
+
+      &>.high {
+        color: #00deab;
+      }
+    }
+  }
+}
