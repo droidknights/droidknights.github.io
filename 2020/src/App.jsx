@@ -26,13 +26,12 @@ class App extends React.Component {
               <About />
               <Schedule />
               <Location />
+              <Sponsor />
             </Route>
             <Route path="/2020/about" exact></Route>
             <Route path="/2020/schedule" exact></Route>
             <Route path="/2020/location" exact></Route>
-            <Route path="/2020/sponsor" exact>
-              <Sponsor />
-            </Route>
+            <Route path="/2020/sponsor" exact></Route>
             <Route path="/2020/organizer" exact>
               <Organizer />
             </Route>
