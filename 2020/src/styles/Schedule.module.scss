@@ -1,0 +1,64 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+
+  &>img {
+    position: absolute;
+    right: 0;
+  }
+}
+
+
+.desc {
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #9b9b9b;
+
+
+  @media screen and (max-width: 425px) {
+    // phone
+    font-size: 16px;
+  }
+}
+
+.coming {
+  display: inline-block;
+  font-family: "BigJohn";
+  font-size: 60px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.53;
+  letter-spacing: normal;
+  text-align: center;
+  color: #00deab;
+  margin-top: 55px;
+
+  position: relative;
+
+  &:before {
+    content: "";
+    position: absolute;
+    background-color: #28282d;
+    left: -12px;
+    right: -12px;
+    top: 30%;
+    height: 110%;
+    z-index: -1;
+  }
+
+  @media screen and (max-width: 425px) {
+    // phone
+    font-size: 30px;
+
+  }
+
+}
