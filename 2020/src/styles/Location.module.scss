@@ -1,0 +1,35 @@
+.root {
+  text-align: center;
+  background-color: #202020;
+  margin: 0 -50px;
+  width: calc(100% + 100px);
+  padding: 68px 0;
+}
+
+.title {
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  font-size: 36px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.11;
+  letter-spacing: normal;
+  text-align: center;
+  color: #eae5e9;
+  margin-bottom: 80px;
+}
+
+.desc {
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+
+  & > span {
+    color: #00deab;
+  }
+}
