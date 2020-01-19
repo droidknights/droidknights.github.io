@@ -1,16 +1,17 @@
 import React from "react";
 import styles from "../styles/Sponsor.module.scss";
+import { Element } from "react-scroll";
 
 const Sponsor = props => {
   return (
-    <div className={styles.root}>
+    <Element name="sponsor" className={styles.root}>
       <div className={styles.title}>sponsor</div>
       <div className={styles.list}>
         <div>
           <img
             src={process.env.PUBLIC_URL + "/img/btn-platinum.svg"}
             alt=""
-            srcset=""
+            srcSet=""
           />
         </div>
 
@@ -18,7 +19,7 @@ const Sponsor = props => {
           <img
             src={process.env.PUBLIC_URL + "/img/btn-gold.svg"}
             alt=""
-            srcset=""
+            srcSet=""
           />
         </div>
 
@@ -26,11 +27,11 @@ const Sponsor = props => {
           <img
             src={process.env.PUBLIC_URL + "/img/btn-silver.svg"}
             alt=""
-            srcset=""
+            srcSet=""
           />
         </div>
       </div>
-    </div>
+    </Element>
   );
 };
 

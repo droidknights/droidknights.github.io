@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./App.module.scss";
+import "./App.module.scss";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Header from "./components/Header";
 import Index from "./containers/Index";
@@ -8,9 +8,47 @@ import Schedule from "./containers/Schedule";
 import Location from "./containers/Location";
 import Sponsor from "./containers/Sponsor";
 import Organizer from "./containers/Organizer";
-import ComingSoon from "./components/ComingSoon";
+
+import { Events } from "react-scroll";
 
 class App extends React.Component {
+  state = {
+    showHeader: true
+  };
+  componentDidMount() {
+    this.prev = 10;
+
+    window.addEventListener("scroll", this.handleNavigation);
+    Events.scrollEvent.register("begin", this.hideHeader);
+    Events.scrollEvent.register("end", this.showHeader);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener("scroll", this.handleNavigation);
+  }
+
+  handleNavigation = e => {
+    const window = e.currentTarget;
+    if (this.prev < window.pageYOffset) {
+      console.log("scrolling down");
+      this.setState({ showHeader: false });
+    } else if (this.prev >= window.pageYOffset) {
+      console.log("scrolling up");
+      this.setState({ showHeader: true });
+    }
+
+    this.prev = window.pageYOffset;
+  };
+
+  showHeader = () => {
+    console.log("show");
+    this.setState({ showHeader: true });
+  };
+  hideHeader = () => {
+    console.log("hide");
+    this.setState({ showHeader: false });
+  };
+
   render() {
     return (
       <Router>
@@ -19,7 +57,11 @@ class App extends React.Component {
             height: "100vh"
           }}
         >
-          <Header />
+          {/* <img
+            src={process.env.PUBLIC_URL + "/img/bg_star.svg"}
+            className={styles.img}
+          /> */}
+          <Header isShow={this.state.showHeader} />
           <Switch>
             <Route path="/2020/" exact>
               <Index />
@@ -28,10 +70,6 @@ class App extends React.Component {
               <Location />
               <Sponsor />
             </Route>
-            <Route path="/2020/about" exact></Route>
-            <Route path="/2020/schedule" exact></Route>
-            <Route path="/2020/location" exact></Route>
-            <Route path="/2020/sponsor" exact></Route>
             <Route path="/2020/organizer" exact>
               <Organizer />
             </Route>

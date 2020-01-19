@@ -4,6 +4,15 @@
   margin: 0 -50px;
   width: calc(100% + 100px);
   padding: 68px 0;
+
+
+
+
+  @media screen and (max-width: 425px) {
+    // phone
+    width: 100%;
+    margin: 0;
+  }
 }
 
 .title {
@@ -17,6 +26,12 @@
   text-align: center;
   color: #eae5e9;
   margin-bottom: 80px;
+
+  @media screen and (max-width: 425px) {
+    // phone
+    margin-bottom: 40px;
+
+  }
 }
 
 .desc {
@@ -29,7 +44,15 @@
   text-align: center;
   color: #ffffff;
 
-  & > span {
+  &>span {
     color: #00deab;
+  }
+
+
+
+  @media screen and (max-width: 425px) {
+    // phone
+    font-size: 16px;
+
   }
 }

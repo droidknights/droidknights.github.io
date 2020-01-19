@@ -1,5 +1,13 @@
 .root {
   padding: 68px 0;
+
+
+
+  @media screen and (max-width: 425px) {
+    // phone
+    width: 100%;
+    margin: 0;
+  }
 }
 
 .title {
@@ -12,10 +20,22 @@
   letter-spacing: normal;
   text-align: center;
   color: #eae5e9;
+  cursor: pointer;
 }
 
 .list {
   display: flex;
   justify-content: space-around;
   padding: 0 10%;
+
+
+  @media screen and (max-width: 425px) {
+    // phone
+    flex-direction: column;
+    margin-top: 60px;
+
+    &>div {
+      text-align: center;
+    }
+  }
 }

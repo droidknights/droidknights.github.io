@@ -10,7 +10,7 @@ body {
   background-color: #303033;
   color: #eae5e9;
 
-  font-family: 'Black Han Sans', sans-serif;
+  font-family: "Black Han Sans", sans-serif;
 
   @media screen and (max-width: 425px) {
     // phone
@@ -23,3 +23,11 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
+// .img {
+//   position: fixed;
+//   top: 0;
+//   left: 0;
+//   right: 0;
+//   bottom: 0;
+// }

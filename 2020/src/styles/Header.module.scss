@@ -1,7 +1,14 @@
 .root {
   display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
 
+  transition: all 0.3s;
 
+  z-index: 9999;
+  padding: 20px 70px;
   justify-content: space-between;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
   font-size: 24px;
@@ -10,13 +17,12 @@
   font-style: normal;
   line-height: normal;
   letter-spacing: normal;
-
+  background-color: #303033;
 
   @media screen and (max-width: 425px) {
     // phone
     display: none;
   }
-
 
   @media screen and (min-width: 425px) and (max-width: 768px) {
     // Tablet
@@ -26,21 +32,22 @@
   @media screen and (min-width: 769px) {
     // Web
     font-size: 24px;
-
   }
-
 }
 
 .title {
   font-family: "BigJohn";
   color: #00deab;
-}
 
+  & > span {
+    cursor: pointer;
+  }
+}
 
 nav {
   color: #eae5e9;
 
-  &>span {
+  & > span {
     margin-left: 20px;
     cursor: pointer;
   }

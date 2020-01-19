@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/2020/build/static/css/main.1aac335d.chunk.css",
+    "main.js": "/2020/build/static/js/main.3392e141.chunk.js",
+    "main.js.map": "/2020/build/static/js/main.3392e141.chunk.js.map",
+    "runtime-main.js": "/2020/build/static/js/runtime-main.ca0e5ff3.js",
+    "runtime-main.js.map": "/2020/build/static/js/runtime-main.ca0e5ff3.js.map",
+    "static/js/2.cac97926.chunk.js": "/2020/build/static/js/2.cac97926.chunk.js",
+    "static/js/2.cac97926.chunk.js.map": "/2020/build/static/js/2.cac97926.chunk.js.map",
+    "index.html": "/2020/build/index.html",
+    "precache-manifest.6d0736e0299f621d89121ff814bb00c1.js": "/2020/build/precache-manifest.6d0736e0299f621d89121ff814bb00c1.js",
+    "service-worker.js": "/2020/build/service-worker.js",
+    "static/css/main.1aac335d.chunk.css.map": "/2020/build/static/css/main.1aac335d.chunk.css.map",
+    "static/media/BIG_JOHN.otf": "/2020/build/static/media/BIG_JOHN.aa3a0087.otf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ca0e5ff3.js",
+    "static/js/2.cac97926.chunk.js",
+    "static/css/main.1aac335d.chunk.css",
+    "static/js/main.3392e141.chunk.js"
+  ]
+}

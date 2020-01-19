@@ -23,6 +23,18 @@
     -->
   <link href="https://fonts.googleapis.com/css?family=Black+Han+Sans&display=swap" rel="stylesheet">
   <script src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=0x78ib6nmi"></script>
+  <script type="text/javascript">
+    var map = null;
+
+    function initMap() {
+      map = new naver.maps.Map('map', {
+        /* 변경점 */
+        useStyleMap: true,
+        size: new naver.maps.Size(300, 400)
+      });
+    }
+
+  </script>
   <title>Droidknights 2020</title>
 </head>
 
