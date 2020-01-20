@@ -1,8 +1,6 @@
 .root {
   padding: 68px 0;
 
-
-
   @media screen and (max-width: 425px) {
     // phone
     width: 100%;
@@ -26,16 +24,49 @@
 .list {
   display: flex;
   justify-content: space-around;
-  padding: 0 10%;
+  width: 100%;
 
+  & > div {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    & > img:nth-child(1) {
+      height: 130px;
+    }
+
+    & > img:not(:nth-child(1)) {
+      width: 60%;
+      margin-bottom: 40px;
+    }
+  }
 
   @media screen and (max-width: 425px) {
     // phone
     flex-direction: column;
     margin-top: 60px;
 
-    &>div {
+    & > div {
       text-align: center;
+
+      & > img:nth-child(1) {
+        height: 100px;
+      }
+    }
+  }
+
+  @media screen and (min-width: 425px) and (max-width: 768px) {
+    // Tablet
+    & > div > img:nth-child(1) {
+      height: 110px;
+    }
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+    // Tablet
+    & > div > img:nth-child(1) {
+      height: 100px;
     }
   }
 }

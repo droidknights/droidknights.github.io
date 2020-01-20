@@ -30,10 +30,8 @@ class App extends React.Component {
   handleNavigation = e => {
     const window = e.currentTarget;
     if (this.prev < window.pageYOffset) {
-      console.log("scrolling down");
       this.setState({ showHeader: false });
     } else if (this.prev >= window.pageYOffset) {
-      console.log("scrolling up");
       this.setState({ showHeader: true });
     }
 
@@ -41,11 +39,9 @@ class App extends React.Component {
   };
 
   showHeader = () => {
-    console.log("show");
     this.setState({ showHeader: true });
   };
   hideHeader = () => {
-    console.log("hide");
     this.setState({ showHeader: false });
   };
 
