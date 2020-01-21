@@ -38,11 +38,6 @@ const Header = props => {
             sponsor
           </Link>
         </span>
-        <span>
-          <Link to="organizer" smooth={true} offset={-50} duration={500}>
-            organizer
-          </Link>
-        </span>
       </nav>
     </div>
   );
