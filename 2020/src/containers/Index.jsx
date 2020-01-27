@@ -24,7 +24,7 @@ const Index = props => {
       </div>
       <div className={styles.img}>
         <img
-          src={process.env.PUBLIC_URL + "/img/img-droid-space.webp"}
+          src={process.env.PUBLIC_URL + "/img/img-droid-space.png"}
           alt=""
           srcSet=""
         />
