@@ -10,7 +10,7 @@ const About = props => {
   return (
     <Element name="about" className={styles.root}>
       <img
-        src={process.env.PUBLIC_URL + "/img/2019-pic.png"}
+        src={process.env.PUBLIC_URL + "/img/2019-pic.webp"}
         alt=""
         srcSet=""
       />
