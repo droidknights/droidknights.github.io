@@ -19,6 +19,8 @@
   text-align: center;
   color: #eae5e9;
   cursor: pointer;
+
+  margin-bottom: 30px;
 }
 
 .list {
@@ -27,17 +29,18 @@
   align-items: center;
   width: 100%;
 
-  & > div {
+
+  &>div {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 30%;
 
-    & > img:nth-child(1) {
+    &>img:nth-child(1) {
       height: 130px;
     }
 
-    & > img:not(:nth-child(1)) {
+    &>img:not(:nth-child(1)) {
       width: 60%;
       margin-bottom: 40px;
     }
@@ -48,25 +51,28 @@
     flex-direction: column;
     margin-top: 60px;
 
-    & > div {
+    &>div {
       text-align: center;
+      width: 80%;
 
-      & > img:nth-child(1) {
+      &>img:nth-child(1) {
         height: 100px;
       }
     }
   }
 
   @media screen and (min-width: 425px) and (max-width: 768px) {
+
     // Tablet
-    & > div > img:nth-child(1) {
+    &>div>img:nth-child(1) {
       height: 110px;
     }
   }
 
   @media screen and (min-width: 768px) and (max-width: 1024px) {
+
     // Tablet
-    & > div > img:nth-child(1) {
+    &>div>img:nth-child(1) {
       height: 100px;
     }
   }

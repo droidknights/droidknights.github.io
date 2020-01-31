@@ -25,7 +25,8 @@
   letter-spacing: normal;
   text-align: center;
   color: #eae5e9;
-  margin-bottom: 80px;
+  margin-bottom: 40px;
+
 
   @media screen and (max-width: 425px) {
     // phone
@@ -36,6 +37,7 @@
 
 .desc {
   font-size: 24px;
+  font-family: 'Spoqa Han Sans';
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -46,6 +48,7 @@
 
   &>span {
     color: #00deab;
+    font-weight: bold;
   }
 
 
@@ -53,6 +56,5 @@
   @media screen and (max-width: 425px) {
     // phone
     font-size: 16px;
-
   }
 }

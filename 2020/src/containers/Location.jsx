@@ -25,8 +25,8 @@ const Location = props => {
     <Element name="location" className={styles.root}>
       <div className={styles.title}>location</div>
       <div className={styles.desc}>
-        <span>코엑스 아셈볼룸 2F</span> {size.width <= 425 && <br />}서울특별시
-        강남구 영동대로 513 (삼성동, 코엑스)
+        <span>코엑스 아셈볼룸 2F</span> <br />
+        서울특별시 강남구 영동대로 513 (삼성동, 코엑스)
       </div>
       <div
         id="map" // default: react-naver-map

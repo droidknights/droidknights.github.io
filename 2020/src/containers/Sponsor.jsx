@@ -9,82 +9,103 @@ const Sponsor = props => {
       <div className={styles.list}>
         <div>
           <img
-            src={process.env.PUBLIC_URL + "/img/btn-diamond.png"}
+            src={process.env.PUBLIC_URL + "/img/btn-diamond/btn-diamond.png"}
             alt=""
-            srcSet=""
+            srcSet={`${process.env.PUBLIC_URL}/img/btn-diamond/btn-diamond@2x.png 2x,
+            ${process.env.PUBLIC_URL}/img/btn-diamond/btn-diamond@3x.png 3x`}
           />
 
           <img
-            src={process.env.PUBLIC_URL + "/img/sponsors/toss.svg"}
+            src={process.env.PUBLIC_URL + "/img/sponsors/toss/logo-toss.png"}
             alt=""
-            srcSet=""
-            style={{ width: "50%", marginTop: "15px", marginBottom: "50px" }}
-          />
-        </div>
-
-        <div>
-          <img
-            src={process.env.PUBLIC_URL + "/img/btn-platinum.png"}
-            alt=""
-            srcSet=""
-          />
-
-          <img
-            src={process.env.PUBLIC_URL + "/img/sponsors/heydealer.png"}
-            alt=""
-            srcSet=""
-            style={{
-              width: "40%",
-              marginTop: "20px"
-            }}
-          />
-
-          <img
-            src={process.env.PUBLIC_URL + "/img/sponsors/line.png"}
-            alt=""
-            srcSet=""
-            style={{ width: "33%" }}
-          />
-
-          <img
-            src={process.env.PUBLIC_URL + "/img/sponsors/remember.png"}
-            alt=""
-            srcSet=""
-            style={{ marginTop: "10px", marginBottom: "55px" }}
+            srcSet={`${process.env.PUBLIC_URL}/img/sponsors/toss/logo-toss@2x.png 2x,
+            ${process.env.PUBLIC_URL}/img/sponsors/toss/logo-toss@3x.png 3x`}
+            style={{ width: "80%", marginTop: "15px", marginBottom: "150px" }}
           />
         </div>
 
         <div>
           <img
-            src={process.env.PUBLIC_URL + "/img/btn-gold.png"}
+            src={process.env.PUBLIC_URL + "/img/btn-platinum/btn-platinum.png"}
             alt=""
-            srcSet=""
+            srcSet={`${process.env.PUBLIC_URL}/img/btn-platinum/btn-platinum@2x.png 2x,
+            ${process.env.PUBLIC_URL}/img/btn-platinum/btn-platinum@3x.png 3x`}
           />
 
           <img
-            src={process.env.PUBLIC_URL + "/img/sponsors/강남언니.svg"}
+            src={
+              process.env.PUBLIC_URL +
+              "/img/sponsors/heydealer/logo-heydealer.png"
+            }
             alt=""
-            srcSet=""
+            srcSet={`${process.env.PUBLIC_URL}/img/sponsors/heydealer/logo-heydealer@2x.png 2x,
+            ${process.env.PUBLIC_URL}/img/sponsors/heydealer/logo-heydealer@3x.png 3x`}
             style={{
-              width: "43%",
-              marginTop: "25px"
-            }}
-          />
-
-          <img
-            src={process.env.PUBLIC_URL + "/img/sponsors/naver.png"}
-            alt=""
-            srcSet=""
-            style={{
-              width: "43%",
+              width: "60%",
               marginTop: "15px"
             }}
           />
 
           <img
-            src={process.env.PUBLIC_URL + "/img/sponsors/myrealtrip.png"}
+            src={process.env.PUBLIC_URL + "/img/sponsors/line/logo-line.png"}
             alt=""
-            srcSet=""
+            srcSet={`${process.env.PUBLIC_URL}/img/sponsors/line/logo-line@2x.png 2x,
+            ${process.env.PUBLIC_URL}/img/sponsors/line/logo-line@3x.png 3x`}
+            style={{ width: "40%" }}
+          />
+
+          <img
+            src={
+              process.env.PUBLIC_URL +
+              "/img/sponsors/remember/logo-remember.png"
+            }
+            alt=""
+            srcSet={`${process.env.PUBLIC_URL}/img/sponsors/remember/logo-remember@2x.png 2x,
+            ${process.env.PUBLIC_URL}/img/sponsors/remember/logo-remember@3x.png 3x`}
+            style={{ width: "90%", marginTop: "10px", marginBottom: "150px" }}
+          />
+        </div>
+
+        <div>
+          <img
+            src={process.env.PUBLIC_URL + "/img/btn-gold/btn-gold.png"}
+            alt=""
+            srcSet={`${process.env.PUBLIC_URL}/img/btn-gold/btn-gold@2x.png 2x,
+            ${process.env.PUBLIC_URL}/img/btn-gold/btn-gold@3x.png 3x`}
+          />
+
+          <img
+            src={
+              process.env.PUBLIC_URL + "/img/sponsors/gangnam/logo-gangnam.png"
+            }
+            alt=""
+            srcSet={`${process.env.PUBLIC_URL}/img/sponsors/gangnam/logo-gangnam@2x.png 2x,
+            ${process.env.PUBLIC_URL}/img/sponsors/gangnam/logo-gangnam@3x.png 3x`}
+            style={{
+              width: "50%",
+              marginTop: "25px"
+            }}
+          />
+
+          <img
+            src={process.env.PUBLIC_URL + "/img/sponsors/naver/logo-naver.png"}
+            alt=""
+            srcSet={`${process.env.PUBLIC_URL}/img/sponsors/naver/logo-naver@2x.png 2x,
+            ${process.env.PUBLIC_URL}/img/sponsors/naver/logo-naver@3x.png 3x`}
+            style={{
+              width: "50%",
+              marginTop: "15px"
+            }}
+          />
+
+          <img
+            src={
+              process.env.PUBLIC_URL +
+              "/img/sponsors/myrealtrip/logo-myrealtrip.png"
+            }
+            alt=""
+            srcSet={`${process.env.PUBLIC_URL}/img/sponsors/myrealtrip/logo-myrealtrip@2x.png 2x,
+            ${process.env.PUBLIC_URL}/img/sponsors/myrealtrip/logo-myrealtrip@3x.png 3x`}
             style={{
               width: "55%",
               marginTop: "7px",
@@ -93,20 +114,25 @@ const Sponsor = props => {
           />
 
           <img
-            src={process.env.PUBLIC_URL + "/img/sponsors/kakaopay.png"}
+            src={
+              process.env.PUBLIC_URL +
+              "/img/sponsors/kakaopay/logo-kakaopay.png"
+            }
             alt=""
-            srcSet=""
+            srcSet={`${process.env.PUBLIC_URL}/img/sponsors/kakaopay/logo-kakaopay@2x.png 2x,
+            ${process.env.PUBLIC_URL}/img/sponsors/kakaopay/logo-kakaopay@3x.png 3x`}
             style={{
-              width: "40%"
+              width: "35%"
             }}
           />
 
           <img
-            src={process.env.PUBLIC_URL + "/img/sponsors/vcnc.png"}
+            src={process.env.PUBLIC_URL + "/img/sponsors/vcnc/logo-vcnc.png"}
             alt=""
-            srcSet=""
+            srcSet={`${process.env.PUBLIC_URL}/img/sponsors/vcnc/logo-vcnc@2x.png 2x,
+            ${process.env.PUBLIC_URL}/img/sponsors/vcnc/logo-vcnc@3x.png 3x`}
             style={{
-              width: "44%"
+              width: "35%"
             }}
           />
         </div>
