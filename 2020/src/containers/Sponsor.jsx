@@ -61,7 +61,7 @@ const Sponsor = props => {
             srcSet=""
           />
 
-          {/* <img
+          <img
             src={process.env.PUBLIC_URL + "/img/sponsors/강남언니.svg"}
             alt=""
             srcSet=""
@@ -69,7 +69,8 @@ const Sponsor = props => {
               width: "43%",
               marginTop: "25px"
             }}
-          /> */}
+          />
+
           <img
             src={process.env.PUBLIC_URL + "/img/sponsors/naver.png"}
             alt=""
