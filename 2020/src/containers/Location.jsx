@@ -12,11 +12,11 @@ const Location = props => {
     loadNavermapsScript({ ncpClientId: "0x78ib6nmi" }).then(navermaps => {
       map = new navermaps.Map("map", {
         useStyleMap: true,
-        center: new navermaps.LatLng(37.5117818, 127.0592741),
+        center: new navermaps.LatLng(37.51319, 127.05845),
         zoom: 16
       });
       new navermaps.Marker({
-        position: new navermaps.LatLng(37.5117818, 127.0592741),
+        position: new navermaps.LatLng(37.51319, 127.05845),
         map: map
       });
     });
