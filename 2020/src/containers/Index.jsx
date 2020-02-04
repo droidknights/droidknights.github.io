@@ -2,8 +2,10 @@ import React from "react";
 import styles from "../styles/Index.module.scss";
 import { Element } from "react-scroll";
 
+import { useTranslation } from "react-i18next";
 // FIXME: 아래쪽에 살짝의 마진 (About이랑 살짝 균격이 있음)
 const Index = props => {
+  const { t, i18n } = useTranslation();
   return (
     <Element
       name="idx"
@@ -19,8 +21,8 @@ const Index = props => {
         srcSet=""
       />
       <div className={styles.desc}>
-        <div>2020.04.06</div>
-        <div>코엑스 아셈볼룸 2층</div>
+        <div>{t("Date")}</div>
+        <div>{t("Place")}</div>
       </div>
       <div className={styles.img}>
         <img

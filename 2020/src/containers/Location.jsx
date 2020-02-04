@@ -3,8 +3,10 @@ import { loadNavermapsScript } from "react-naver-maps";
 import styles from "../styles/Location.module.scss";
 import { Element } from "react-scroll";
 import { useWindowSize } from "../utils/hooks";
+import { useTranslation } from "react-i18next";
 
 const Location = props => {
+  const { t } = useTranslation();
   const size = useWindowSize();
   React.useEffect(() => {
     var map = null;
@@ -25,8 +27,8 @@ const Location = props => {
     <Element name="location" className={styles.root}>
       <div className={styles.title}>location</div>
       <div className={styles.desc}>
-        <span>코엑스 아셈볼룸 2F</span> <br />
-        서울특별시 강남구 영동대로 513 (삼성동, 코엑스)
+        <span>{t("Place")}</span> <br />
+        {t("Place Detail")}
       </div>
       <div
         id="map" // default: react-naver-map

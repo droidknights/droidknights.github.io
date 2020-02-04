@@ -8,8 +8,8 @@ import Schedule from "./containers/Schedule";
 import Location from "./containers/Location";
 import Sponsor from "./containers/Sponsor";
 import Organizer from "./containers/Organizer";
-
 import { Events } from "react-scroll";
+import "./utils/i18n";
 
 class App extends React.Component {
   state = {
