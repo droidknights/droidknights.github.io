@@ -7,10 +7,6 @@ import i18next from "i18next";
 const Header = props => {
   const router = useRouter();
 
-  useEffect(() => {
-    console.log(router);
-  }, []);
-
   return (
     <div
       className={styles.root}
@@ -50,7 +46,11 @@ const Header = props => {
         </nav>
         <div className={styles.tool}>
           <span
-            className={router.query.lng === "ko" ? styles.focus : ""}
+            className={
+              router.query.lng === "ko" || router.query.lng === undefined
+                ? styles.focus
+                : ""
+            }
             onClick={() => {
               router.replace("/2020?lng=ko");
               i18next.changeLanguage("ko");
