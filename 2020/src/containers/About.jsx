@@ -1,13 +1,19 @@
-import React from "react";
+import React, { useEffect } from "react";
 import styles from "../styles/About.module.scss";
 import { Element } from "react-scroll";
-import { useWindowSize } from "../utils/hooks";
+import { useWindowSize, useRouter } from "../utils/hooks";
 import { useTranslation } from "react-i18next";
 
 // TODO: 아래쪽에 살짝의 마진
 const About = props => {
   const size = useWindowSize();
   const { t } = useTranslation();
+  const router = useRouter();
+
+  useEffect(() => {
+    console.log(router.query.lng);
+    console.log(t("About01"));
+  }, [router.query.lng]);
 
   return (
     <Element name="about" className={styles.root}>

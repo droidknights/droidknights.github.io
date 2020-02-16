@@ -19,6 +19,10 @@
   letter-spacing: normal;
   background-color: #303033;
 
+  & > div {
+    display: flex;
+  }
+
   @media screen and (max-width: 425px) {
     // phone
     display: none;
@@ -41,6 +45,20 @@
 
   & > span {
     cursor: pointer;
+  }
+}
+
+.tool {
+  display: flex;
+
+  margin-left: 50px;
+
+  color: #888;
+  & > span:not(:nth-child(2)) {
+    cursor: pointer;
+  }
+  & > span.focus {
+    color: #eae5e9;
   }
 }
 
