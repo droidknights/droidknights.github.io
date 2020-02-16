@@ -20,7 +20,8 @@ const resources = {
       About02: "an Android conference to share",
       About03: "advanced knowledge and experiences",
       About04: "via tech session",
-      "Place Detail": "513, Yeongdong-daero, Gangnam-gu, Seoul, Republic of Korea"
+      "Place Detail": "513, Yeongdong-daero, Gangnam-gu, Seoul, Republic of Korea",
+      "Ticket": "Regular ticket open!"
     }
   },
   ko: {
@@ -33,7 +34,8 @@ const resources = {
       About02: "기술 세션으로 개발자들의 경험을 공유하는",
       About03: "안드로이드 컨퍼런스 입니다.",
       About04: "",
-      "Place Detail": "서울특별시 강남구 영동대로 513 (삼성동, 코엑스)"
+      "Place Detail": "서울특별시 강남구 영동대로 513 (삼성동, 코엑스)",
+      "Ticket": "일반티켓 오픈!"
     }
   }
 };

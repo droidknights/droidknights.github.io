@@ -17,19 +17,21 @@ const About = props => {
 
   return (
     <Element name="about" className={styles.root}>
-      <img src={process.env.PUBLIC_URL + "/img/2019-pic.png"} alt="" />
+      {/* <img src={process.env.PUBLIC_URL + "/img/2019-pic.png"} alt="" /> */}
 
-      <div className={styles.overlay}>
-        <div>
-          <span className={styles.high}>{t("Droid")}</span>
-          {t("About01")}
-          <br />
-          {t("About02")} {size.width <= 425 && <br />}
-          {t("About03")}
-          {size.width <= 425 && <br />}
-          {t("About04")}
-        </div>
+      <div>
+        <span className={styles.high}>{t("Droid")}</span>
+        {t("About01")}
+        <br />
+        {t("About02")} {size.width <= 425 && <br />}
+        {t("About03")}
+        {size.width <= 425 && <br />}
+        {t("About04")}
       </div>
+      <a href="https://festa.io/events/825" target="__blank">
+        GET TICKET !
+      </a>
+      <div>{t("Ticket")}</div>
     </Element>
   );
 };
