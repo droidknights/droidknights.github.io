@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/2020/build/static/css/main.d249b70c.chunk.css",
-    "main.js": "/2020/build/static/js/main.6ca8d99a.chunk.js",
-    "main.js.map": "/2020/build/static/js/main.6ca8d99a.chunk.js.map",
+    "main.js": "/2020/build/static/js/main.110d03b9.chunk.js",
+    "main.js.map": "/2020/build/static/js/main.110d03b9.chunk.js.map",
     "runtime-main.js": "/2020/build/static/js/runtime-main.ca0e5ff3.js",
     "runtime-main.js.map": "/2020/build/static/js/runtime-main.ca0e5ff3.js.map",
     "static/js/2.d483710e.chunk.js": "/2020/build/static/js/2.d483710e.chunk.js",
     "static/js/2.d483710e.chunk.js.map": "/2020/build/static/js/2.d483710e.chunk.js.map",
     "index.html": "/2020/build/index.html",
-    "precache-manifest.f748b7df1041604e21ef3200f32eab97.js": "/2020/build/precache-manifest.f748b7df1041604e21ef3200f32eab97.js",
+    "precache-manifest.bf5341c6cf3b734a9889b79850645e26.js": "/2020/build/precache-manifest.bf5341c6cf3b734a9889b79850645e26.js",
     "service-worker.js": "/2020/build/service-worker.js",
     "static/css/main.d249b70c.chunk.css.map": "/2020/build/static/css/main.d249b70c.chunk.css.map",
     "static/media/BIG_JOHN.otf": "/2020/build/static/media/BIG_JOHN.aa3a0087.otf"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.ca0e5ff3.js",
     "static/js/2.d483710e.chunk.js",
     "static/css/main.d249b70c.chunk.css",
-    "static/js/main.6ca8d99a.chunk.js"
+    "static/js/main.110d03b9.chunk.js"
   ]
 }
