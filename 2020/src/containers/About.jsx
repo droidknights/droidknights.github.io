@@ -22,10 +22,10 @@ const About = props => {
         {size.width <= 425 && <br />}
         {t("About04")}
       </div>
-      <a href="https://festa.io/events/825" target="__blank">
+      {/* <a href="https://festa.io/events/825" target="__blank">
         GET TICKET !
       </a>
-      <div>{t("Ticket")}</div>
+      <div>{t("Ticket")}</div> */}
     </Element>
   );
 };

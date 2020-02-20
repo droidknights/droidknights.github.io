@@ -18,7 +18,7 @@ const resources = {
       "Comming Soon Session": "Session schedule will be announced in Feb.",
       About01: " is",
       About02: "an Android conference to share",
-      About03: "advanced knowledge and experiences",
+      About03: "advanced knowledge and experiences ",
       About04: "via tech session",
       "Place Detail": "513, Yeongdong-daero, Gangnam-gu, Seoul, Republic of Korea",
       "Ticket": "Regular ticket open!"
