@@ -15,13 +15,21 @@ const resources = {
       Droid: "DroidKnights",
       Date: "Jul 27, 2020",
       Place: "Conference Room(North) 2F COEX",
-      "Comming Soon Session": "Session schedule will be announced in Feb.",
+      "Comming Soon Session": "Session schedule will be announced in Jun.",
       About01: " is",
       About02: "an Android conference to share",
       About03: "advanced knowledge and experiences ",
       About04: "via tech session",
       "Place Detail": "513, Yeongdong-daero, Gangnam-gu, Seoul, Republic of Korea",
-      "Ticket": "Regular ticket open!"
+      "Ticket": "Regular ticket open!",
+      "app_desc_1": "Droid Knights introduction and app launch to check the session schedule!",
+      "app_desc_2-1": "Become a ",
+      "app_desc_2-2": "Contributor ",
+      "app_desc_2-3": "of the Droid Knights app implemented with Flutter",
+      "app_desc_3": "We wait for your participation!",
+      "app_download": "Download the app",
+      "app_github": "Go to Github",
+      "ready": "Coming soon.",
     }
   },
   ko: {
@@ -29,13 +37,21 @@ const resources = {
       Droid: "드로이드나이츠",
       Date: "2020.07.27",
       Place: "코엑스 아셈볼룸 2층",
-      "Comming Soon Session": "2월중에 세션이 공개됩니다.",
+      "Comming Soon Session": "6월중에 세션이 공개됩니다.",
       About01: "는",
       About02: "기술 세션으로 개발자들의 경험을 공유하는",
       About03: "안드로이드 컨퍼런스 입니다.",
       About04: "",
       "Place Detail": "서울특별시 강남구 영동대로 513 (삼성동, 코엑스)",
-      "Ticket": "일반티켓 오픈!"
+      "Ticket": "일반티켓 오픈!",
+      "app_desc_1": "드로이드나이츠 소개와 세션 스케쥴을 확인할 수 있는 앱 런칭!",
+      "app_desc_2-1": "Flutter로 구현된 드로이드나이츠 앱의 ",
+      "app_desc_2-2": "컨트리뷰터",
+      "app_desc_2-3": "가 되어주세요.",
+      "app_desc_3": "여러분의 참여를 기다립니다!",
+      "app_download": "앱 다운로드",
+      "app_github": "깃헙 바로가기",
+      "ready": "준비중입니다.",
     }
   }
 };

@@ -10,6 +10,7 @@ import Sponsor from "./containers/Sponsor";
 import Organizer from "./containers/Organizer";
 import { Events } from "react-scroll";
 import "./utils/i18n";
+import Application from "./containers/Application";
 
 class App extends React.Component {
   state = {
@@ -63,6 +64,7 @@ class App extends React.Component {
               <Index />
               <About />
               <Schedule />
+              <Application />
               <Location />
               <Sponsor />
             </Route>
