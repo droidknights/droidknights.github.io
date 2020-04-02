@@ -13,7 +13,7 @@ const resources = {
   en: {
     translation: {
       Droid: "DroidKnights",
-      Date: "Apr 6, 2020",
+      Date: "Jul 27, 2020",
       Place: "Conference Room(North) 2F COEX",
       "Comming Soon Session": "Session schedule will be announced in Feb.",
       About01: " is",
@@ -27,7 +27,7 @@ const resources = {
   ko: {
     translation: {
       Droid: "드로이드나이츠",
-      Date: "2020.04.06",
+      Date: "2020.07.27",
       Place: "코엑스 아셈볼룸 2층",
       "Comming Soon Session": "2월중에 세션이 공개됩니다.",
       About01: "는",
