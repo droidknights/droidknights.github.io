@@ -20,7 +20,7 @@ const Sponsor = (props) => {
             alt=""
             srcSet={`${process.env.PUBLIC_URL}/img/sponsors/toss/logo-toss@2x.png 2x,
             ${process.env.PUBLIC_URL}/img/sponsors/toss/logo-toss@3x.png 3x`}
-            style={{ width: "80%", marginTop: "15px", marginBottom: "150px" }}
+            style={{ width: "80%", marginBottom: "120px" }}
           />
         </div>
 
@@ -42,7 +42,7 @@ const Sponsor = (props) => {
             ${process.env.PUBLIC_URL}/img/sponsors/heydealer/logo-heydealer@3x.png 3x`}
             style={{
               width: "60%",
-              marginTop: "15px",
+              marginBottom: "120px",
             }}
           />
 
@@ -74,7 +74,7 @@ const Sponsor = (props) => {
             ${process.env.PUBLIC_URL}/img/btn-gold/btn-gold@3x.png 3x`}
           />
 
-          <img
+          {/* <img
             src={
               process.env.PUBLIC_URL + "/img/sponsors/gangnam/logo-gangnam.png"
             }
@@ -85,9 +85,9 @@ const Sponsor = (props) => {
               width: "50%",
               marginTop: "25px",
             }}
-          />
+          /> */}
 
-          <img
+          {/* <img
             src={process.env.PUBLIC_URL + "/img/sponsors/naver/logo-naver.png"}
             alt=""
             srcSet={`${process.env.PUBLIC_URL}/img/sponsors/naver/logo-naver@2x.png 2x,
@@ -96,7 +96,7 @@ const Sponsor = (props) => {
               width: "50%",
               marginTop: "15px",
             }}
-          />
+          /> */}
 
           {/* <img
             src={
@@ -123,6 +123,7 @@ const Sponsor = (props) => {
             ${process.env.PUBLIC_URL}/img/sponsors/kakaopay/logo-kakaopay@3x.png 3x`}
             style={{
               width: "35%",
+              marginBottom: "55px",
             }}
           />
 

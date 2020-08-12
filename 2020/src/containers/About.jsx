@@ -4,7 +4,7 @@ import { Element } from "react-scroll";
 import { useWindowSize, useRouter } from "../utils/hooks";
 import { useTranslation } from "react-i18next";
 
-const About = props => {
+const About = (props) => {
   const size = useWindowSize();
   const { t } = useTranslation();
   const router = useRouter();
@@ -22,10 +22,30 @@ const About = props => {
         {size.width <= 425 && <br />}
         {t("About04")}
       </div>
-      {/* <a href="https://festa.io/events/825" target="__blank">
-        GET TICKET !
-      </a>
-      <div>{t("Ticket")}</div> */}
+
+      <img
+        src={process.env.PUBLIC_URL + "/img/img-planet.svg"}
+        alt=""
+        srcSet=""
+      />
+
+      <div className={styles.btns}>
+        <a
+          href="https://www.wanted.co.kr/events/droidknights2020"
+          target="__blank"
+          style={{ backgroundColor: " #2C5BF2" }}
+        >
+          참가 신청하기
+        </a>
+
+        <a
+          href="https://www.youtube.com/c/DroidKnights"
+          target="__blank"
+          style={{ backgroundColor: " #FF0000" }}
+        >
+          유튜브 링크
+        </a>
+      </div>
     </Element>
   );
 };

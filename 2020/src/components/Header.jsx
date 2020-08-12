@@ -4,14 +4,14 @@ import { Link } from "react-scroll";
 import { useRouter } from "../utils/hooks";
 import i18next from "i18next";
 
-const Header = props => {
+const Header = (props) => {
   const router = useRouter();
 
   return (
     <div
       className={styles.root}
       style={{
-        top: props.isShow ? 0 : "-100px"
+        top: props.isShow ? 0 : "-100px",
       }}
     >
       <div className={styles.title}>
@@ -33,11 +33,11 @@ const Header = props => {
               schedule
             </Link>
           </span>
-          <span>
+          {/* <span>
             <Link to="location" smooth={true} offset={-50} duration={500}>
               location
             </Link>
-          </span>
+          </span> */}
           <span>
             <Link to="sponsor" smooth={true} offset={-50} duration={500}>
               sponsor

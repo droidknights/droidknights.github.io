@@ -4,7 +4,7 @@ import { Element } from "react-scroll";
 import { useWindowSize, useRouter } from "../utils/hooks";
 import { useTranslation } from "react-i18next";
 
-const Application = props => {
+const Application = (props) => {
   const size = useWindowSize();
   const { t } = useTranslation();
   const router = useRouter();
@@ -13,7 +13,6 @@ const Application = props => {
     <Element name="application" className={styles.root}>
       <div className={styles.title}>App</div>
       <div className={styles.desc}>
-        {t("app_desc_1")} <br />
         {t("app_desc_2-1")}
         <span>{t("app_desc_2-2")}</span>
         {t("app_desc_2-3")}

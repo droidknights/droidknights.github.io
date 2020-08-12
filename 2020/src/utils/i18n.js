@@ -25,7 +25,7 @@ const resources = {
       "app_desc_1": "Droid Knights introduction and app launch to check the session schedule!",
       "app_desc_2-1": "Become a ",
       "app_desc_2-2": "Contributor ",
-      "app_desc_2-3": "of the Droid Knights app implemented with Flutter",
+      "app_desc_2-3": "of the Droid Knights app",
       "app_desc_3": "We wait for your participation!",
       "app_download": "Download the app",
       "app_github": "Go to Github",
@@ -35,8 +35,8 @@ const resources = {
   ko: {
     translation: {
       Droid: "드로이드나이츠",
-      Date: "2020.08.14",
-      Place: "코엑스 아셈볼룸 2층",
+      Date: "2020.09.05",
+      Place: "코로나로 인해 온라인 스트리밍으로 진행 예정입니다.",
       "Comming Soon Session": "6월중에 세션이 공개됩니다.",
       About01: "는",
       About02: "기술 세션으로 개발자들의 경험을 공유하는",
@@ -45,7 +45,7 @@ const resources = {
       "Place Detail": "서울특별시 강남구 영동대로 513 (삼성동, 코엑스)",
       "Ticket": "일반티켓 오픈!",
       "app_desc_1": "드로이드나이츠 소개와 세션 스케쥴을 확인할 수 있는 앱 런칭!",
-      "app_desc_2-1": "Flutter로 구현된 드로이드나이츠 앱의 ",
+      "app_desc_2-1": "드로이드나이츠 앱의 ",
       "app_desc_2-2": "컨트리뷰터",
       "app_desc_2-3": "가 되어주세요.",
       "app_desc_3": "여러분의 참여를 기다립니다!",

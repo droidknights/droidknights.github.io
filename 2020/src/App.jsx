@@ -14,7 +14,7 @@ import Application from "./containers/Application";
 
 class App extends React.Component {
   state = {
-    showHeader: true
+    showHeader: true,
   };
   componentDidMount() {
     this.prev = 10;
@@ -28,7 +28,7 @@ class App extends React.Component {
     window.removeEventListener("scroll", this.handleNavigation);
   }
 
-  handleNavigation = e => {
+  handleNavigation = (e) => {
     const window = e.currentTarget;
     if (this.prev < window.pageYOffset) {
       this.setState({ showHeader: false });
@@ -51,7 +51,7 @@ class App extends React.Component {
       <Router>
         <div
           style={{
-            height: "100vh"
+            height: "100vh",
           }}
         >
           {/* <img
@@ -65,7 +65,7 @@ class App extends React.Component {
               <About />
               <Schedule />
               <Application />
-              <Location />
+              {/* <Location /> */}
               <Sponsor />
             </Route>
             <Route path="/2020/organizer" exact>

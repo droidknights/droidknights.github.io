@@ -38,6 +38,7 @@
 
     &>img:nth-child(1) {
       height: 130px;
+      margin-bottom: 30px;
     }
 
     &>img:not(:nth-child(1)) {
