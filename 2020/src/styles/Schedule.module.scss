@@ -181,7 +181,7 @@
   }
 
   &>div.textBox {
-    height: 170px;
+    min-height: 170px;
 
     &>div.name {
       color: #FFFFFF;
@@ -225,7 +225,15 @@
     text-align: center;
 
     color: #B9B9B9;
+    text-shadow: none;
     cursor: pointer;
+
+    &>img {
+      width: 26px;
+      color: #B9B9B9;
+      fill: #B9B9B9;
+
+    }
   }
 
 
@@ -252,6 +260,57 @@
     &>div.sessionBtn {
       margin-top: 15px;
 
+    }
+  }
+
+}
+
+
+.dialog {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(40, 40, 45, 0.8);
+  z-index: 10000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &>.container {
+    max-width: 770px;
+    background: #202020;
+    box-shadow: 0px 0px 20px 5px #00DEAB;
+    border-radius: 25px;
+
+    padding: 40px 30px;
+
+    font-family: Noto Sans KR;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 26px;
+
+    &>.subTitle {
+      color: #00DEAB;
+      font-size: 18px;
+    }
+
+    &>.title {
+      color: #00DEAB;
+      font-size: 20px;
+      font-weight: bold;
+
+      word-break: keep-all;
+      padding-top: 10px;
+      padding-bottom: 20px;
+      margin-bottom: 20px;
+      border-bottom: 1px solid #B9B9B9;
+    }
+
+    &>.desc {
+      color: #B9B9B9;
+      font-size: 16px;
     }
   }
 

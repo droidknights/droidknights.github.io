@@ -3,6 +3,19 @@
   src: url(fonts/BIG_JOHN.otf) format("opentype");
 }
 
+@font-face {
+  font-family: "Noto Sans KR";
+  src: url(fonts/NotoSansKR-Regular.otf) format("opentype");
+  font-weight: normal;
+}
+
+
+@font-face {
+  font-family: "Noto Sans KR";
+  src: url(fonts/NotoSansKR-Bold.otf) format("opentype");
+  font-weight: bold;
+}
+
 body {
   margin: 0;
   padding: 0;

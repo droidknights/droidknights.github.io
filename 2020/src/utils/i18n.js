@@ -35,7 +35,7 @@ const resources = {
   ko: {
     translation: {
       Droid: "드로이드나이츠",
-      Date: "2020.09.05",
+      Date: "2020.09.05(토) 13시",
       Place: "코로나로 인해 온라인 스트리밍으로 진행 예정입니다.",
       "Comming Soon Session": "6월중에 세션이 공개됩니다.",
       About01: "는",
