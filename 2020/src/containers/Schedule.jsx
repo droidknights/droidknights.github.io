@@ -182,10 +182,10 @@ const Schedule = (props) => {
             img="윤승용.png"
             name="윤승용"
             belong="Styleshare"
-            title="Declarative UI의 이론과 실제"
+            title="Declarative UI 도입을 향한 여정"
             onClickSessionBtn={() => {
               setDialogItem({
-                title: "Declarative UI의 이론과 실제",
+                title: "Declarative UI 도입을 향한 여정",
                 subTitle: "윤승용 / Styleshare",
                 desc:
                   "현재 StyleShare에서 안드로이드 개발자로 일하고 있습니다. 유저들에게 더 좋은 제품을 전달하는 것과 즐겁게 협업하는 문화에 관심이 많습니다.",

@@ -13,8 +13,8 @@ const resources = {
   en: {
     translation: {
       Droid: "DroidKnights",
-      Date: "Aug 14, 2020",
-      Place: "Conference Room(North) 2F COEX",
+      Date: "2020.09.05 (Sat) 13:00",
+      Place: "Due to Corona, it will be conducted online streaming.",
       "Comming Soon Session": "Session schedule will be announced in Jun.",
       About01: " is",
       About02: "an Android conference to share",
