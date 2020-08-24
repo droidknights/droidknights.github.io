@@ -160,7 +160,7 @@ const Schedule = (props) => {
             }}
           />
           <SpeakerItem
-            img="이승원_3.jpg"
+            img="이승원.jpg"
             name="이승원"
             belong="LINE"
             title=" Android 비디오 편집의 silver bullet을 찾아서"
