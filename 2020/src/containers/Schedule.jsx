@@ -22,7 +22,7 @@ const Schedule = (props) => {
             <div>9월 5일(토)</div>
             <div className={styles.bold}>LIVE 세션 소개</div>
           </div>
-          <div>* ZOOM으로 진행됩니다.</div>
+          <div>* Youtube Live로 진행됩니다.</div>
         </div>
 
         <div className={styles.speakerBox}>
@@ -42,7 +42,7 @@ const Schedule = (props) => {
             }}
           />
           <SpeakerItem
-            img="김범준.png"
+            img="김범준.jpg"
             name="김범준"
             belong="쿠팡"
             title="어려운 상태관리! 프로그램에 위임시키기"
@@ -51,7 +51,7 @@ const Schedule = (props) => {
                 title: "어려운 상태관리! 프로그램에 위임시키기",
                 subTitle: "김범준 / 쿠팡",
                 desc:
-                  "레이니스트에서 Banksalad 서비스를 개발하는 김범준이라고 합니다. 간결하고 유지보수성이 높은 코드를 작성하는데 많은 관심이 있습니다.",
+                  "간결하고 유연한 코드를 지향하는 개발자 김범준입니다.\n현재 쿠팡에서 안드로이드 개발자로 일하고 있습니다. :)",
                 isShow: true,
               });
             }}
@@ -119,7 +119,7 @@ const Schedule = (props) => {
                 title: "레거시에서 멀티모듈 시스템까지 A to Z 실전 적용기",
                 subTitle: "이성원&유영혁 / 버즈빌",
                 desc:
-                  "현재 애드테크 컴퍼니 버즈빌에서 Chief Architect 역할을 맡고 있습니다. 이전에는 울트라캡숑과 42컴퍼니의 대표이자 공동 창업자로서 다양한 안드로이드 서비스를 개발 및 운영하였습니다. 소프트웨어 아키텍처에 관심이 많으며, 개인 블로그를 통해서 이에 관한 내용과 개발/연구 중 얻은 인사이트를 공유하고 있습니다.\n\n안드로이드 개발을 시작하여, 현재 애드테크 버즈빌에서 Android Developer 역할을 수행하고 있습니다. 좋은 시스템은 어떻게 만들어야 하는지에 대해 관심이 많으며, 최근에는 안드로이드 앱의 모듈화에 관심을 갖고 있습니다.",
+                  "이성원:::현재 애드테크 컴퍼니 버즈빌에서 Chief Architect 역할을 맡고 있습니다. 이전에는 울트라캡숑과 42컴퍼니의 대표이자 공동 창업자로서 다양한 안드로이드 서비스를 개발 및 운영하였습니다. 소프트웨어 아키텍처에 관심이 많으며, 개인 블로그를 통해서 이에 관한 내용과 개발/연구 중 얻은 인사이트를 공유하고 있습니다.\n\n:::유영혁:::안드로이드 개발을 시작하여, 현재 애드테크 버즈빌에서 Android Developer 역할을 수행하고 있습니다. 좋은 시스템은 어떻게 만들어야 하는지에 대해 관심이 많으며, 최근에는 안드로이드 앱의 모듈화에 관심을 갖고 있습니다.",
                 isShow: true,
               });
             }}
@@ -255,7 +255,21 @@ const Schedule = (props) => {
               });
             }}
           />
-          <SpeakerItem display="none" />
+          <SpeakerItem
+            img="남반석.jpg"
+            name="남반석"
+            belong="Lawfully"
+            title="Flutter로 글로벌앱 출시를 위한 꿀팁대방출"
+            onClickSessionBtn={() => {
+              setDialogItem({
+                title: "Flutter로 글로벌앱 출시를 위한 꿀팁대방출",
+                subTitle: "남반석 / Lawfully",
+                desc:
+                  "안드로이드 개발 7년차, Flutter 개발 7개월차 개발자입니다. 현재 스타트업 Lawfully에서 175개국 2만명의 유저가 사용중인 글로벌앱을 개발/관리 하고 있습니다. 프론트엔드 개발에 관심이 많아 그 외에 React 프로젝트도 참여하였고, 각 플랫폼과 언어의 장단점을 잘 녹여서 개발에 적용중입니다.",
+                isShow: true,
+              });
+            }}
+          />
         </div>
       </div>
 
@@ -361,12 +375,18 @@ const Dialog = (props) => {
         <div className={styles.subTitle}>{props.subTitle}</div>
         <div className={styles.title}>{props.title}</div>
         <div className={styles.desc}>
-          {props.desc.split("\n").map((v) => (
-            <>
-              <span>{v}</span>
-              <br />
-            </>
-          ))}
+          {props.desc.split(":::").map((value, index) => {
+            if ((index + 1) % 2 === 0) {
+              return value.split("\n").map((v) => (
+                <>
+                  <span>{v}</span>
+                  <br />
+                </>
+              ));
+            } else {
+              return <span style={{ fontWeight: "bold" }}>{value} : </span>;
+            }
+          })}
         </div>
       </div>
     </div>
