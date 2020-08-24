@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/2020/build/static/css/main.6056a295.chunk.css",
-    "main.js": "/2020/build/static/js/main.ad1a345a.chunk.js",
-    "main.js.map": "/2020/build/static/js/main.ad1a345a.chunk.js.map",
+    "main.css": "/2020/build/static/css/main.ff96917b.chunk.css",
+    "main.js": "/2020/build/static/js/main.5ff27a65.chunk.js",
+    "main.js.map": "/2020/build/static/js/main.5ff27a65.chunk.js.map",
     "runtime-main.js": "/2020/build/static/js/runtime-main.eac30e3e.js",
     "runtime-main.js.map": "/2020/build/static/js/runtime-main.eac30e3e.js.map",
     "static/js/2.bf52e087.chunk.js": "/2020/build/static/js/2.bf52e087.chunk.js",
     "static/js/2.bf52e087.chunk.js.map": "/2020/build/static/js/2.bf52e087.chunk.js.map",
     "index.html": "/2020/build/index.html",
-    "precache-manifest.5977b6807a1505fcc5fe7b9618ce53ae.js": "/2020/build/precache-manifest.5977b6807a1505fcc5fe7b9618ce53ae.js",
+    "precache-manifest.5ae4c8f5e218e42d3a084794c7840b53.js": "/2020/build/precache-manifest.5ae4c8f5e218e42d3a084794c7840b53.js",
     "service-worker.js": "/2020/build/service-worker.js",
-    "static/css/main.6056a295.chunk.css.map": "/2020/build/static/css/main.6056a295.chunk.css.map",
+    "static/css/main.ff96917b.chunk.css.map": "/2020/build/static/css/main.ff96917b.chunk.css.map",
     "static/media/BIG_JOHN.otf": "/2020/build/static/media/BIG_JOHN.aa3a0087.otf",
     "static/media/App.module.scss": "/2020/build/static/media/NotoSansKR-Regular.839a2f6c.otf"
   },
   "entrypoints": [
     "static/js/runtime-main.eac30e3e.js",
     "static/js/2.bf52e087.chunk.js",
-    "static/css/main.6056a295.chunk.css",
-    "static/js/main.ad1a345a.chunk.js"
+    "static/css/main.ff96917b.chunk.css",
+    "static/js/main.5ff27a65.chunk.js"
   ]
 }
