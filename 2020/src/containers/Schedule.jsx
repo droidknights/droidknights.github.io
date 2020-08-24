@@ -119,7 +119,7 @@ const Schedule = (props) => {
                 title: "레거시에서 멀티모듈 시스템까지 A to Z 실전 적용기",
                 subTitle: "이성원&유영혁 / 버즈빌",
                 desc:
-                  "이성원:::현재 애드테크 컴퍼니 버즈빌에서 Chief Architect 역할을 맡고 있습니다. 이전에는 울트라캡숑과 42컴퍼니의 대표이자 공동 창업자로서 다양한 안드로이드 서비스를 개발 및 운영하였습니다. 소프트웨어 아키텍처에 관심이 많으며, 개인 블로그를 통해서 이에 관한 내용과 개발/연구 중 얻은 인사이트를 공유하고 있습니다.\n\n:::유영혁:::안드로이드 개발을 시작하여, 현재 애드테크 버즈빌에서 Android Developer 역할을 수행하고 있습니다. 좋은 시스템은 어떻게 만들어야 하는지에 대해 관심이 많으며, 최근에는 안드로이드 앱의 모듈화에 관심을 갖고 있습니다.",
+                  "이성원://현재 애드테크 컴퍼니 버즈빌에서 Chief Architect 역할을 맡고 있습니다. 이전에는 울트라캡숑과 42컴퍼니의 대표이자 공동 창업자로서 다양한 안드로이드 서비스를 개발 및 운영하였습니다. 소프트웨어 아키텍처에 관심이 많으며, 개인 블로그를 통해서 이에 관한 내용과 개발/연구 중 얻은 인사이트를 공유하고 있습니다.\n\n//유영혁://안드로이드 개발을 시작하여, 현재 애드테크 버즈빌에서 Android Developer 역할을 수행하고 있습니다. 좋은 시스템은 어떻게 만들어야 하는지에 대해 관심이 많으며, 최근에는 안드로이드 앱의 모듈화에 관심을 갖고 있습니다.",
                 isShow: true,
               });
             }}
@@ -375,7 +375,8 @@ const Dialog = (props) => {
         <div className={styles.subTitle}>{props.subTitle}</div>
         <div className={styles.title}>{props.title}</div>
         <div className={styles.desc}>
-          {props.desc.split(":::").map((value, index) => {
+          {props.desc.split("//").map((value, index, arr) => {
+            console.log(arr.length);
             if ((index + 1) % 2 === 0) {
               return value.split("\n").map((v) => (
                 <>
@@ -384,7 +385,7 @@ const Dialog = (props) => {
                 </>
               ));
             } else {
-              return <span style={{ fontWeight: "bold" }}>{value} : </span>;
+              return <span style={{ fontWeight: "bold" }}>{value}</span>;
             }
           })}
         </div>
