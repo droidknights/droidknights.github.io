@@ -308,6 +308,34 @@
       border-bottom: 1px solid #B9B9B9;
     }
 
+    &>.session {
+      color: #B9B9B9;
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+
+
+    &>div.sessionBtn {
+      display: flex;
+      align-items: center;
+
+      font-family: SpoqaHanSans;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 14px;
+
+      text-align: center;
+
+      color: #00DEAB;
+      text-shadow: none;
+      margin-bottom: 10px;
+
+      &>img {
+        width: 26px;
+        margin-right: 7px;
+      }
+    }
+
     &>.desc {
       color: #B9B9B9;
       font-size: 16px;
