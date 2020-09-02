@@ -268,16 +268,16 @@ const Schedule = (props) => {
             img="남반석.jpg"
             name="남반석"
             belong="Lawfully"
-            title="Flutter로 글로벌앱 출시를 위한 꿀팁대방출"
+            title="Flutter로 글로벌앱 출시를 위한 꿀팁."
             onClickSessionBtn={() => {
               setDialogItem({
-                title: "Flutter로 글로벌앱 출시를 위한 꿀팁대방출",
+                title: "Flutter로 글로벌앱 출시를 위한 꿀팁.",
                 subTitle: "남반석 / Lawfully",
                 desc:
                   "!!안드로이드 개발 7년차, Flutter 개발 2년차 개발자입니다. 현재 스타트업 Lawfully에서 182개국 약 7만명의 유저가 사용중인 글로벌앱을 개발/관리 하고 있습니다. 프론트엔드 개발에 관심이 많아 그 외에 React 프로젝트도 참여하였고, 각 플랫폼과 언어의 장단점을 잘 녹여서 개발에 적용중입니다.",
                 isShow: true,
                 session:
-                  "Flutter로 글로벌앱 출시를 위한 꿀팁ㅜ안드로이드 개발 7년차, Flutter 개발 2년차 개발자입니다. 현재 스타트업 Lawfully에서 182개국 약 7만명의 유저가 사용중인 글로벌앱을 개발/관리 하고 있습니다. 프론트엔드 개발에 관심이 많아 그 외에 React 프로젝트도 참여하였고, 각 플랫폼과 언어의 장단점을 잘 녹여서 개발에 적용중입니다.\n\n이번 발표는 Flutter에 관심이 있는 개발자, 혹은 Flutter앱을 처음 런칭하시는 분들이 참고하시면 좋은 내용으로 준비했습니다.",
+                  "이번 발표는 Flutter에 관심이 있는 개발자, 혹은 Flutter앱을 처음 런칭하시는 분들이 참고하시면 좋은 내용으로 준비했습니다.",
               });
             }}
           />
@@ -297,7 +297,7 @@ const Schedule = (props) => {
               });
             }}
           />
-          <SpeakerItem name="Yacine Rezgui" />
+          <SpeakerItem display="none" />
         </div>
       </div>
 
