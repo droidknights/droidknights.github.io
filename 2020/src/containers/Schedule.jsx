@@ -283,6 +283,7 @@ const Schedule = (props) => {
             }}
           />
           <SpeakerItem
+            img="GarimaJain.jpg"
             name="Garima Jain"
             belong="Over"
             title="A LUT (lot) of image filters on Android"
@@ -298,7 +299,23 @@ const Schedule = (props) => {
               });
             }}
           />
-          <SpeakerItem display="none" />
+          <SpeakerItem
+            img="YacineRezgui.jpg"
+            name="Yacine Rezgui"
+            belong="Google"
+            title="Adapting Your Apps for Android 11 Privacy Changes"
+            onClickSessionBtn={() => {
+              setDialogItem({
+                title: "Adapting Your Apps for Android 11 Privacy Changes",
+                subTitle: "Yacine Rezgui / Google",
+                desc:
+                  "!!Android developer advocate at Google in London where he works on Android Studio, privacy on Android and Jetpack Compose. He worked previously as a developer advocate at IBM on artificial intelligence API ecosystem and as a full stack developer in several startups.",
+                isShow: true,
+                session:
+                  "Privacy continues to be a priority in Android 11. This presentation will help you understand privacy related changes and how to make your app compatible. This includes changes to permissions including one-time permission, storage, package visibility, tooling to help identify private data access, and other new platform APIs.",
+              });
+            }}
+          />
         </div>
       </div>
 
