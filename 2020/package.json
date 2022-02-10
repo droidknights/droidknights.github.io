@@ -7,7 +7,7 @@
     "i18next": "^19.1.0",
     "i18next-browser-languagedetector": "^4.0.1",
     "marvinj": "^1.0.0",
-    "node-sass": "^4.13.0",
+    "node-sass": "^7.0.0",
     "react": "^16.11.0",
     "react-app-polyfill": "^1.0.4",
     "react-dom": "^16.11.0",
